@@ -1,0 +1,27 @@
+.top-header{
+    background-color: #5C3FCF;
+    padding: 0 20px;
+}
+
+.top-header .main-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-header .main-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fast-delever{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.fast-delever p{
+    color: #fff;
+    font-size: 20px;
+}
