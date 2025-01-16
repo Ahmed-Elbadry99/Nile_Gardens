@@ -46,6 +46,11 @@
     src: url('/fonts/IBMPlexSansArabic-Bold.ttf');
 }
 
+@font-face {
+  font-family:  "limit";
+  src: url('/fonts/Itim-Regular.ttf');
+}
+
 .main-container {
   width: 90%;
   margin-left: auto;

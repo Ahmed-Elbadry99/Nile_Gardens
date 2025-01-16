@@ -170,6 +170,7 @@ p{
     position: absolute;
     top: 0;
     left: -110px;
+    animation: tada 2s infinite;
 }
 
 
@@ -179,6 +180,7 @@ p{
 .offer-price p{
     font-size: 96px;
     color: var(--primary3);
+    font-family: "limit";
 }
 
 .offer-img{
@@ -227,4 +229,83 @@ p{
 .offer-link a:hover{
     background-color: var(--primary1);
     color: white;
+}
+
+/* partners */
+.partners{
+    margin: 70px 0;
+}
+.partners .main-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.partner-item{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    height: 200px;
+    position: relative;
+    overflow: visible
+}
+
+
+
+.partner-item::before,
+.partner-item::after {
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    width: 110%;
+    height: 110%;
+}
+
+.partner-item::before {
+    border-top: 2px solid rgba(188, 192, 192, 0.28);
+    border-bottom: 2px solid rgba(188, 192, 192, 0.28);
+    clip-path: inset(0 30%);
+
+}
+
+.partner-item::after {
+    border-top: 2px solid rgba(188, 192, 192, 0.28);
+    border-bottom: 2px solid rgba(188, 192, 192, 0.28);
+    clip-path: inset(0 30%);
+    transform: rotate(90deg);
+}
+
+
+.partner-item:hover::before {
+    animation: rotate 5s linear infinite;
+    border-bottom: 2px solid var(--primary3);
+    border-top: 2px solid var(--primary3);
+}
+
+.partner-item:hover::after {
+    animation: rotatew 5s linear infinite;
+    border-bottom: 2px solid var(--primary3);
+    border-top: 2px solid var(--primary3);
+}
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotatew {
+    0% {
+        transform: rotate(90deg);
+    }
+    100% {
+        transform: rotate(450deg);
+    }
 }
