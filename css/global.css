@@ -4,11 +4,11 @@
   box-sizing: border-box;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap"); */
 
 :root {
   --primary1: #1c48c1;
-  --primary2: #e9eefc;
+  --primary2: #ffc200;
   --gray: #9e9e9e;
   --black: #121212;
 }
@@ -29,14 +29,10 @@
 }
 
 @font-face {
-    font-family:  "MEDUIM";
-    src: url('/fonts/IBMPlexSansArabic-Thin.ttf');
-}
-
-@font-face {
-    font-family:  "THIN";
+    font-family:  "MEDIUM";
     src: url('/fonts/IBMPlexSansArabic-Medium.ttf');
 }
+
 
 @font-face {
     font-family:  "BOLD";
@@ -51,6 +47,8 @@
 
 body {
   font-family: "REGULAR", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 a {
