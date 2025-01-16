@@ -1,13 +1,22 @@
 .crousel-card-dog {
   position: relative;
-  background-color: var(--primary1);
-  margin-top: 50px;
-  margin-bottom: 30px;
   padding: 50px;
   border-radius: 10px;
   display: flex;
   align-items: center;
+  direction: rtl;
   min-height: 530px;
+}
+
+.hero-section{
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.hero-section .main-container{
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
 }
 
 .crousel-card-dog .txt {
@@ -62,6 +71,7 @@
     padding: 10px;
     background-position: center;
     background-size: cover;
+    animation: backInDown 1s forwards;
 }
 
 .crousel-card-dog .imgs .img-1 img {
@@ -82,6 +92,7 @@
   border-radius: 50%;
   background-position: center;
   background-size: cover;
+  animation: backInUp 1s forwards;
 }
 
 .crousel-card-dog .imgs .img-2 img {
@@ -95,6 +106,7 @@
   position: absolute;
   top: 45px;
   left: 47px;
+  animation: backInLeft 1s forwards;
 }
 
 .discount {
@@ -109,6 +121,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  animation: tada 2s infinite; 
 }
 
 .discount h2{
@@ -138,6 +151,7 @@
     position: absolute;
     font-weight: 700;
     box-shadow: 5px 5px #B58D0E42;
+    animation: backInRight 1s forwards;
 }
 
 .home-img {
@@ -150,4 +164,37 @@
     bottom: 20px;
     left: 20px;
     position: absolute;
+    animation: swing 1s infinite;
+}
+
+.owl-carousel{
+  direction: ltr;
+}
+
+.owl-dots{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  bottom: 20px;
+  gap: 10px;
+}
+
+.owl-nav{
+  display: none;
+}
+
+.owl-dots button{
+   width: 14px;
+   height: 14px;
+   background-color: #FFFFFF !important;
+   border-radius: 50%;
+   transition: 0.3s;
+}
+
+.owl-dots button.active{
+   width: 80px;
+   border-radius: 10px;
+   background-color: #fff !important;
 }

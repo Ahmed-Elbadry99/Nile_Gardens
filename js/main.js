@@ -20,3 +20,20 @@ if(showMenu){
           document.querySelector('.overlay').classList.remove("show")
      })
 }
+
+
+$(".owl-carousel.carousel-hero").owlCarousel({
+     loop: true,
+     margin: 10,
+     nav: true,
+     autoplay: true,
+     autoplayTimeout: 3000,
+     autoplayHoverPause: true,
+     smartSpeed: 1000,  
+     responsive: {
+       0: {
+         items: 1
+       }
+     }
+   });
+   
