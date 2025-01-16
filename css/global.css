@@ -9,8 +9,41 @@
 :root {
   --primary1: #1c48c1;
   --primary2: #e9eefc;
+  --primary3:#FFC200;
   --gray: #9e9e9e;
   --black: #121212;
+  --pink: #FE82AA;
+
+}
+
+@font-face {
+    font-family:  "THIN";
+    src: url('/fonts/IBMPlexSansArabic-Thin.ttf');
+}
+
+@font-face {
+    font-family:  "LIGHT";
+    src: url('/fonts/IBMPlexSansArabic-Light.ttf');
+}
+
+@font-face {
+    font-family:  "REGULAR";
+    src: url('/fonts/IBMPlexSansArabic-Regular.ttf');
+}
+
+@font-face {
+    font-family:  "MEDUIM";
+    src: url('/fonts/IBMPlexSansArabic-Thin.ttf');
+}
+
+@font-face {
+    font-family:  "THIN";
+    src: url('/fonts/IBMPlexSansArabic-Medium.ttf');
+}
+
+@font-face {
+    font-family:  "BOLD";
+    src: url('/fonts/IBMPlexSansArabic-Bold.ttf');
 }
 
 .main-container {
@@ -20,7 +53,7 @@
 }
 
 body {
-  font-family: "IBM Plex Sans Arabic", serif;
+  font-family: "REGULAR", serif;
 }
 
 a {

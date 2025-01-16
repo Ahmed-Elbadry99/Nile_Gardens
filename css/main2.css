@@ -2,6 +2,229 @@ h2{
     font-size: 36px;
 }
 
+h3{
+    font-size: 32px;
+}
 p{
     font-size: 18px;
+    margin: 0;
+}
+
+.about-container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.about-header h2{
+    color: var(--primary1);
+    font-weight: 600;
+}
+
+.about-header p{
+    color: var(--black);
+}
+
+.about-content {
+    color: var(--gray);
+}
+
+.about-content span{
+    color: var(--black);
+}
+
+.about-ratting{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-ratting .ratting-item{
+    text-align: center;
+    align-content: center;
+}
+
+.about-ratting .ratting-item h3{
+    font-weight: 600;
+    color: var(--primary3)
+}
+.about-ratting .ratting-item p{
+    font-weight: 600;
+    color: var(--gray);
+    font-size: 20px;
+}
+
+
+/* about */
+
+.about-us{
+    margin: 70px 0;
+}
+
+
+
+.about-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.about-img .img-container{
+    width: 500px;
+    height: 425px;
+}
+.about-img .img-container img{
+    width: 100%;
+    height: 100%;
+}
+
+.lable1,
+.lable2{
+    position: absolute;
+    background-color: var(--pink);
+    color: white;
+    height: 56px;
+    width: fit-content;
+    padding: 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 12px;
+    top: 10px;
+    right: -10px ;
+    box-shadow: 0 8px 25.5px rgba(0, 0, 0, 0.25);
+    overflow:visible;
+   
+}
+
+.lable2{
+    bottom: 10px;
+    left: 10px;
+    top: unset;
+    right: unset;
+    background-color: #5C3FCF;
+
+}
+.lable1 .lablel-img{
+    animation: pulseHeart 2s infinite;
+}
+
+.lable2 .lablel-img{
+ animation: wobble 2s infinite;
+}
+
+
+@keyframes pulseHeart {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100%
+    {
+        transform: scale(1);
+    }
+
+}
+
+
+.lable1 svg,
+.lable2 svg{
+    position: absolute;
+    width: 100.5%;
+    height: 103%;
+    pointer-events: none; /* Prevents the SVG from capturing mouse events */
+    border-radius: 12px;
+    z-index: 2;
+}
+
+
+
+/* offer banner */
+.offer-banner{
+    margin: 40px 0;
+    background-color: #FE82AA;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.offer-banner .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+.offer-banner .offer-price,
+.offer-banner .offer-link{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    color: white;
+    width: 80%;
+    position: relative;
+    
+}
+.offer-price img{
+    position: absolute;
+    top: 0;
+    left: -110px;
+}
+
+
+.offer-price h1{
+    font-size: 96px;
+}
+.offer-price p{
+    font-size: 96px;
+    color: var(--primary3);
+}
+
+.offer-img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.offer-img img{
+    width: 90%;
+    height: auto;
+    z-index: 3;
+}
+
+.offer-img::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary3);
+    bottom: -50%;
+    left: 0;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.offer-banner .offer-link{
+    width:fit-content;
+    gap: 20px ;
+}
+.offer-link p{
+    font-weight: 600;
+
+}
+.offer-link a{
+    color: var(--primary1);
+    background-color: white;
+    border-radius: 12px;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+}
+.offer-link a:hover{
+    background-color: var(--primary1);
+    color: white;
 }
