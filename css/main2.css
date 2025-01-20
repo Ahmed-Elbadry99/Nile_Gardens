@@ -990,3 +990,22 @@ footer .row{
         transform: scale(1);
     }
 }
+
+
+
+#loading-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff; /* or any color you prefer */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000; /* Ensure it covers everything else */
+}
+
+#main-content {
+    display: none; /* Initially hide the main content */
+}

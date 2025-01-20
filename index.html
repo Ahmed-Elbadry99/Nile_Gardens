@@ -29,7 +29,11 @@
         <link rel="stylesheet" href="css/ar.css">
 </head>
 <body>
-     <main>
+
+  <div id="loading-screen">
+    <p>Loading...</p>
+</div>
+     <main   id="main-content" style="display: none;">
         
              <!--  Header  -->
              <header>
@@ -776,8 +780,10 @@
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="about-img">
-                        <div class="img-container">
+                        <div class="img-container dog-sound">
+                        
                             <img src="images/about.png" alt="">
+                            <audio preload="auto" id="dogSound" src="./1055629880_2049404851_2101504403.mp3" loop></audio>
                         </div>
                         <div class="lable1">
                             <div class="lablel-img">
@@ -913,7 +919,12 @@
 
         <!-- our customers -->
         <section class="our-customers">
+          <div class="image-dog">
             <img class="customer-bg" src="images/new-banner1.png" alt="">
+
+            <audio  preload="auto" id="catSound" src="./dog-bark-179915.mp3" loop></audio>
+            <audio  preload="auto" id="birds" src="./cardinal-37075.mp3"></audio>
+          </div>
             <div class="main-container">
                 <div class="customers-header">
                     <h1>آراء عملائنا</h1>
@@ -1020,8 +1031,9 @@
                         </form>
                     </div>
                 </div>
-                <div class="news-banner-img">
+                <div class="news-banner-img sound-cat">
                     <img src="images/news.png" alt="">
+                    <audio preload="auto" id="soundCat" src="./mixkit-cartoon-kitty-begging-meow-92.wav" loop></audio>
                 </div>
             </div>
         </section>

@@ -246,3 +246,141 @@ if (inputsVerification.length > 0) { // Check if inputs exist
     });
 }
 
+// document.querySelector('.image-dog').addEventListener('mouseenter', function() {
+//   document.getElementById('catSound').play();
+// });
+
+// document.querySelector('.image-dog').addEventListener('mouseleave', function() {
+//   document.getElementById('catSound').pause();
+//   document.getElementById('catSound').currentTime = 0; // Reset sound to the start
+// });
+
+
+
+let soundTimeout;
+
+// Ensure audio plays only after user interaction
+document.querySelector('.image-dog').addEventListener('mouseenter', function() {
+    soundTimeout = setTimeout(() => {
+        const audio = document.getElementById('catSound');
+        // Check if the play method is available and the audio can be played
+        audio.play().catch((error) => {
+            console.log('Audio playback was prevented:', error);
+        });
+    }, 100); // Delay of 1 second
+});
+
+document.querySelector('.image-dog').addEventListener('mouseleave', function() {
+    clearTimeout(soundTimeout); // Clear the timeout
+    const audio = document.getElementById('catSound');
+    audio.pause();
+    audio.currentTime = 0; // Reset sound to the start
+});
+
+
+
+// Ensure audio plays only after user interaction
+document.querySelector('.dog-sound').addEventListener('mouseenter', function() {
+    soundTimeout = setTimeout(() => {
+        const audio = document.getElementById('dogSound');
+        // Check if the play method is available and the audio can be played
+        audio.play().catch((error) => {
+            console.log('Audio playback was prevented:', error);
+        });
+    }, 100); // Delay of 1 second
+});
+
+document.querySelector('.dog-sound').addEventListener('mouseleave', function() {
+    clearTimeout(soundTimeout); // Clear the timeout
+    const audio = document.getElementById('dogSound');
+    audio.pause();
+    audio.currentTime = 0; // Reset sound to the start
+});
+
+
+// Ensure audio plays only after user interaction
+document.querySelector('.sound-cat').addEventListener('mouseenter', function() {
+  soundTimeout = setTimeout(() => {
+      const audio = document.getElementById('soundCat');
+      // Check if the play method is available and the audio can be played
+      audio.play().catch((error) => {
+          console.log('Audio playback was prevented:', error);
+      });
+  }, 100); // Delay of 1 second
+});
+
+document.querySelector('.sound-cat').addEventListener('mouseleave', function() {
+  clearTimeout(soundTimeout); // Clear the timeout
+  const audio = document.getElementById('soundCat');
+  audio.pause();
+  audio.currentTime = 0; // Reset sound to the start
+});
+
+
+
+
+
+
+// window.addEventListener('load', function() {
+//   const audio = document.getElementById('birds');
+
+//   audio.play().catch((error) => {
+//       console.log('Audio playback was prevented:', error);
+//   });
+// });
+
+
+
+window.addEventListener('load', function() {
+  const audio = document.getElementById('birds');
+
+  function tryPlayAudio() {
+      audio.play().catch((error) => {
+          console.log('Audio playback was prevented:', error);
+      });
+  }
+
+  // Attempt to play audio on page load
+  tryPlayAudio();
+
+  // Also try to play when the page becomes visible again
+  document.addEventListener('visibilitychange', function() {
+      if (document.visibilityState === 'visible') {
+          tryPlayAudio();
+      }
+  });
+});
+
+
+
+window.addEventListener('load', function() {
+  // Hide the loading screen
+  document.getElementById('loading-screen').style.display = 'none';
+
+  // Show the main content
+  document.getElementById('main-content').style.display = 'block';
+
+  // Attempt to play audio
+  const audio = document.getElementById('dogSound');
+  audio.play().catch((error) => {
+      console.log('Audio playback was prevented:', error);
+  });
+});
+
+
+
+window.onload = function() {
+  // All resources (images, audio, scripts, etc.) are fully loaded
+
+  // Hide the loading screen
+  document.getElementById('loading-screen').style.display = 'none';
+
+  // Show the main content
+  document.getElementById('main-content').style.display = 'block';
+
+  // Play the audio after everything is loaded
+  const audio = document.getElementById('dogSound');
+  audio.play().catch((error) => {
+      console.log('Audio playback was prevented:', error);
+  });
+};
