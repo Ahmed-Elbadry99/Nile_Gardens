@@ -43,6 +43,8 @@ p{
 .about-ratting{
     display: flex;
     justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 .about-ratting .ratting-item{
@@ -354,6 +356,13 @@ p{
 /* our customers */
 .our-customers {
     margin: 70px 0;
+    position: relative;
+}
+
+.customer-bg{
+    position: absolute;
+    top: -50px;
+    right: 10px;
 }
 
 .our-customers .customers-header {
@@ -686,8 +695,7 @@ footer{
     background-color: var(--primary1);
     padding: 70px 0 0;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-size: contain;
     
 }
 .footer-top-img{

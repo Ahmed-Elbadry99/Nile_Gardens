@@ -1,3 +1,11 @@
+@media (min-width:1440px){
+    footer{
+       
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+}
 @media   (max-width: 1024px) {
 
     .news-banner-img{
@@ -11,6 +19,15 @@
     .news-banner-header form{
         width: 450px;
     }
+
+    .customer-bg {
+        position: absolute;
+        top: -50px;
+        right: 0px;
+        width: 240px;
+        height: 165px;
+    }
+    
 
 }
 @media   (max-width: 992px) {
@@ -48,6 +65,9 @@
         width: 100%;
     }
     
+    .offer-price img {
+        left: 0;
+    }
     footer{
         background-size: cover;
     }
@@ -63,6 +83,17 @@
         flex-direction: column;
     }
 
+    .customer-bg {
+        top: -75px;
+        width: 210px;
+        height: 145px;
+    }
+
+    .our-customers .customers-header p{
+        text-align: center;
+    }
+    
+
 
 
 }
@@ -76,6 +107,7 @@
     .about-us .lable1 ,
     .about-us .lable2 {
         height: 50px;
+        
 
 
     }
@@ -111,6 +143,12 @@
     }
 
     
+
+    .customer-bg {
+        
+        width: 170px;
+        height: 125px;
+    }
     
 
 }
@@ -143,6 +181,15 @@
         bottom: -15%;
     }
 
+    .our-customers .customers-header p{
+        font-size: 16px;
+    }
+
+    .customer-bg {
+        top: -65px;
+        width: 140px;
+        height: 105px;
+    }
 
 }
 
@@ -161,9 +208,11 @@
 
     .about-us .lable1 {
         top: -20px;
+        right: 10px;
     }
     .about-us .lable2 {
         bottom: -20px;
+        left: 10px;
     }
 
     .news-banner-header form{
@@ -179,6 +228,16 @@
 
     .news-banner-header h1 {
         font-size: 18px;
+    }
+
+    .our-customers .customers-header p{
+        font-size: 14px;
+    }
+
+    .customer-bg {
+        top: -50px;
+        width: 130px;
+        height: 95px;
     }
     
 }

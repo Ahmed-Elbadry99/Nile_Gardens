@@ -73,7 +73,7 @@
 }
 
 .change-lang-menu.show {
-  height: 105px;
+  height: 101px;
 }
 
 .change-lang-menu a {
@@ -90,7 +90,7 @@
 }
 
 .change-lang-menu a:not(:last-child) {
-  border-bottom: 1px solid #5c3fcf;
+  border-bottom: 1px solid #5c3fcf42;
 }
 
 .serch-section {

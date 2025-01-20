@@ -1,113 +1,453 @@
+@media (max-width: 1400px) {
+  .txt-text-heaf {
+    font-size: 20px;
+    margin-top: 0px;
+  }
+
+  .login-info p {
+    width: 100%;
+    font-family: "MEDIUM";
+    font-size: 16px;
+  }
+
+  .login-info .img {
+    position: absolute;
+    width: 100%;
+    height: 310px;
+    bottom: 0;
+    left: 0;
+  }
+
+  .loginform .img {
+    width: 120px;
+  }
+
+  .loginform .img img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .input-frm input {
+    height: 61px;
+  }
+  .input-frm label {
+    font-size: 18px;
+  }
+
+  .loginform form button {
+    height: 60px;
+  }
+}
+
 @media (max-width: 1200px) {
-    .fast-delever p {
-        font-size: 16px;
-    }
+  .fast-delever p {
+    font-size: 16px;
+  }
 
-    .fast-delever {
-        gap: 10px;
-    }
+  .fast-delever {
+    gap: 10px;
+  }
 
-    .search-input {
-        width: 470px;
-        height: 55px;
-    }
+  .search-input {
+    width: 470px;
+    height: 55px;
+  }
 
-    .search-links a p {
-        font-size: 14px;
-    }
+  .search-links a p {
+    font-size: 14px;
+  }
 
-    .search-links a {
-        gap: 5px;
-    }
+  .search-links a {
+    gap: 5px;
+  }
 
-    .search-input button {
-        height: 45px;
-        width: 45px;
-    }
+  .search-input button {
+    height: 45px;
+    width: 45px;
+  }
 
-    .serch-section .logo {
-        width: 75px;
-        height: 95px;
-    }
+  .serch-section .logo {
+    width: 75px;
+    height: 95px;
+  }
 
-    .header-links .links-container a p {
-        font-size: 14px;
-    }
+  .header-links .links-container a p {
+    font-size: 14px;
+  }
 
-    .header-links .links-container {
-        gap: 20px;
-    }
+  .header-links .links-container .header-link p {
+    font-size: 14px;
+  }
 
-    .header-links .links-container a i {
-        font-size: 10px;
-    }
+  .header-links .links-container {
+    gap: 20px;
+  }
 
-    .header-links .links-container a {
-        gap: 5px;
-    }
+  .header-links .links-container .header-link i {
+    font-size: 10px;
+  }
 
-    .header-contact p {
-        font-size: 14px;
-    }
+  .header-links .links-container .header-link {
+    gap: 5px;
+  }
 
-    .header-contact a {
-        font-size: 13px;
-        margin-top: 7px;
-    }
+  .header-contact p {
+    font-size: 14px;
+  }
 
-    .header-links {
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
+  .header-contact a {
+    font-size: 13px;
+    margin-top: 7px;
+  }
 
-    .serch-section {
-        margin: 5px auto;
-    }
+  .header-links {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 
-    .top-header {
-        padding: 10px 0;
-    }
+  .serch-section {
+    margin: 5px auto;
+  }
+
+  .top-header {
+    padding: 10px 0;
+  }
+
+  .crousel-card-dog .txt h2 {
+    font-size: 25px;
+    line-height: 45px;
+  }
+
+  .crousel-card-dog .imgs .img-1 {
+    width: 230px;
+  }
+
+  .crousel-card-dog .imgs .img-2 {
+    width: 185px;
+    height: 185px;
+    top: 211px;
+    left: 204px;
+  }
+
+  .discount {
+    width: 140px;
+    height: 140px;
+    top: 115px;
+    left: 260px;
+    animation: tada 2s infinite;
+    background-size: cover;
+  }
+
+  .discount h2 {
+    font-size: 14px;
+  }
+
+  .discount-precentge {
+    width: 60px;
+    height: 60px;
+    font-size: 18px;
+    top: 102px;
+    left: 253px;
+  }
+
+  .home-img {
+    right: 27%;
+  }
+
+  .haddi {
+    width: 65px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .discounts-cards .card img {
+    width: 131px;
+    height: 154px;
+  }
+
+  .discounts-cards .card {
+    padding: 10px;
+  }
+
+  .discounts-cards .card .desc {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .discounts-cards .card p {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  .shopping-now {
+    width: 135px;
+    height: 46px;
+  }
+
+  .product-index {
+    width: calc(100% / 3 - 16px);
+  }
+
+  .login-info .img {
+    height: 230px;
+  }
+
+  .txt-text-heaf {
+    width: 100%;
+  }
+
+  .loginform form button {
+    height: 50px;
+  }
+
+  .input-frm input {
+    height: 50px;
+  }
+
+  .input-frm label {
+    font-size: 17px;
+  }
+
+  .input-frm {
+    margin-bottom: 15px;
+  }
+
+  .input-frm .icon {
+    bottom: 11px;
+  }
+
+  .loginform form .frm-head {
+    font-size: 22px;
+  }
+
+  .verify-inputs input {
+    width: 55px;
+    height: 55px;
+  }
+
+  .loginform form p {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 992px) {
-    .header-links{
-        display: none;
-    }
+  .header-links {
+    display: none;
+  }
 
-    .search-input {
-        display: none;
-    }
+  .search-input {
+    display: none;
+  }
 
-    .search-links {
-        display: none;
-    }
+  .search-links {
+    display: none;
+  }
 
-    .show-menu{
-        display: flex;
-    }
+  .show-menu {
+    display: flex;
+  }
 
-    header{
-        border-bottom: 1px solid var(--gray);
-    }
+  header {
+    border-bottom: 1px solid var(--gray);
+  }
 
-    .serch-section {
-        margin: 0px auto;
-    }
+  .serch-section {
+    margin: 0px auto;
+  }
 
-    .change-lang{
-        display: none;
-    }
+  .change-lang {
+    display: none;
+  }
 
-    .top-header .main-container {
-        justify-content: center;
-    }
+  .top-header .main-container {
+    justify-content: center;
+  }
 
-    .fast-delever p {
-        font-size: 14px;
-    }
+  .fast-delever p {
+    font-size: 14px;
+  }
+
+  .main-container {
+    width: 95%;
+  }
+
+  .discounts-cards {
+    flex-direction: column;
+  }
+
+  .discounts-cards .card {
+    width: 100%;
+    gap: 10px;
+  }
 }
 
+@media (max-width: 768px) {
+  .crousel-card-dog {
+    flex-direction: column-reverse;
+  }
 
-@media (max-width: 520px) {
-     
+  .crousel-card-dog .txt {
+    width: 100%;
+    text-align: center;
+  }
+
+  .crousel-card-dog .txt p {
+    width: 100%;
+  }
+
+  .crousel-card-dog .imgs {
+    width: 100%;
+    height: 300px;
+  }
+
+  .crousel-card-dog .imgs .img-1 {
+    width: 210px;
+    top: 20px;
+    left: 150px;
+  }
+
+  .crousel-card-dog .imgs .img-2 {
+    width: 160px;
+    height: 160px;
+    top: 170px;
+    left: 290px;
+  }
+
+  .discount {
+    top: 70px;
+    left: 315px;
+  }
+
+  .discount-precentge {
+    width: 60px;
+    height: 60px;
+    font-size: 18px;
+    top: 59px;
+    left: 290px;
+  }
+
+  .home-img {
+    right: 20px;
+    top: 158px;
+    bottom: auto;
+  }
+
+  .crousel-card-dog .txt a {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .crousel-card-dog {
+    position: relative;
+    padding: 50px 20px;
+  }
+
+  .product-index {
+    width: calc(100% / 2 - 16px);
+  }
+
+  .login-page {
+    flex-direction: column-reverse;
+  }
+
+  .login-info {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+  }
+
+  .loginform {
+    width: 100%;
+  }
+
+  .login-info .img {
+    height: 345px;
+  }
+}
+
+@media (max-width: 620px) {
+  .crousel-card-dog .imgs .img-1 {
+    width: 160px;
+    top: 20px;
+    left: 20px;
+  }
+
+  .crousel-card-dog .imgs .img-2 {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    top: 130px;
+    left: 100px;
+  }
+
+  .discount {
+    top: 70px;
+    left: 150px;
+  }
+
+  .discount-precentge {
+    left: 158px;
+  }
+
+  .home-img {
+    width: 100px;
+  }
+
+  .crousel-card-dog .imgs {
+    width: 100%;
+    height: 215px;
+  }
+
+  .crousel-card-dog {
+    padding: 50px 6px;
+  }
+
+  .dog-foot {
+    width: 40px;
+  }
+  .crousel-card-dog .txt h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .discounts-cards .card {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .shopping-now {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .product-index {
+    width: 100%;
+  }
+
+  .login-info .img {
+    height: 200px;
+  }
+
+  .txt-text-heaf {
+    text-align: center;
+  }
+
+  .login-info p {
+    text-align: center;
+  }
+
+  .login-info {
+    padding: 20px;
+  }
+
+  .loginform form {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px dashed #ffc200;
+    padding: 10px;
+  }
 }
