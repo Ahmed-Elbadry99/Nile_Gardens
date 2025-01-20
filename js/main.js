@@ -74,7 +74,7 @@ $(".owl-carousel.carousel-hero").owlCarousel({
      nav: true,
      navText: ["<i class='fa-solid fa-arrow-left'></i>","<i class='fa-solid fa-arrow-right'></i>"],
      dots: false,
-     autoplay: false,
+     autoplay: true,
      autoplayTimeout: 3000,
      autoplayHoverPause: true,
      smartSpeed: 1000, 
