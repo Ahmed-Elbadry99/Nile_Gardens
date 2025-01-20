@@ -18,33 +18,33 @@
 
 @font-face {
     font-family:  "THIN";
-    src: url('fonts/IBMPlexSansArabic-Thin.ttf');
+    src: url('../fonts/IBMPlexSansArabic-Thin.ttf');
 }
 
 @font-face {
     font-family:  "LIGHT";
-    src: url('fonts/IBMPlexSansArabic-Light.ttf');
+    src: url('../fonts/IBMPlexSansArabic-Light.ttf');
 }
 
 @font-face {
     font-family:  "REGULAR";
-    src: url('fonts/IBMPlexSansArabic-Regular.ttf');
+    src: url('../fonts/IBMPlexSansArabic-Regular.ttf');
 }
 
 @font-face {
     font-family:  "MEDIUM";
-    src: url('fonts/IBMPlexSansArabic-Medium.ttf');
+    src: url('../fonts/IBMPlexSansArabic-Medium.ttf');
 }
 
 
 @font-face {
     font-family:  "BOLD";
-    src: url('fonts/IBMPlexSansArabic-Bold.ttf');
+    src: url('../fonts/IBMPlexSansArabic-Bold.ttf');
 }
 
 @font-face {
   font-family:  "limit";
-  src: url('fonts/Itim-Regular.ttf');
+  src: url('../fonts/Itim-Regular.ttf');
 }
 
 .main-container {

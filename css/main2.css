@@ -1,6 +1,6 @@
 @font-face {
     font-family:  "LIGHTw";
-    src: url('fonts/ArbFonts/ArbFONTS-GE-Elegant-Bold_1F.otf');
+    src: url('../fonts/ArbFonts/ArbFONTS-GE-Elegant-Bold_1F.otf');
 }
 h2{
     font-size: 36px;
