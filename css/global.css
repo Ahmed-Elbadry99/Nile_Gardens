@@ -9,6 +9,7 @@
 :root {
   --primary1: #1c48c1;
   --primary2: #e9eefc;
+  --primary3:#ffC200;
   --gray: #9e9e9e;
   --black: #121212;
   --pink: #FE82AA;
@@ -65,4 +66,6 @@ a {
 ul {
   list-style: none;
 }
+
+
 

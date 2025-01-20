@@ -1,3 +1,18 @@
+@media   (max-width: 1024px) {
+
+    .news-banner-img{
+        height: 80%;
+        bottom: -15%;
+    }
+
+    .news-banner-header h1{
+        font-size: 30px;
+    }
+    .news-banner-header form{
+        width: 450px;
+    }
+
+}
 @media   (max-width: 992px) {
     
     .about-us .row{
@@ -8,6 +23,48 @@
         width: 480px;
         height: 410px;
     }
+
+    .news-banner-header form{
+        width: 380px;
+    }
+
+    .customers-slider{
+        padding: 0  ;
+    }
+
+    .news-banner-header h1{
+        font-size: 24px;
+    }
+
+
+    .news-banner-img{
+        height: 80%;
+        bottom: -15%;
+    }
+
+    .offer-banner .offer-price{
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    footer{
+        background-size: cover;
+    }
+
+    .banner-sub-container{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .banner-sub-container .offer-item{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
 }
 @media   (max-width: 768px) {
 
@@ -29,12 +86,61 @@
 
     }
 
+    .partner-item{
+        width: 140px;
+        height: 140px;
+    }
+
+    .news-banner-header form{
+        width: 350px;
+    }
+
+    .customer-info p{
+        font-size: 16px;
+    }
+
+    .news-banner-header h1{
+        font-size: 22px;
+    }
+
+    .news-banner-img{
+        height: 70%;
+        bottom: -15%;
+        right: 5px;
+
+    }
+
+    
+    
 
 }
 @media   (max-width: 576px) {
     .about-img .img-container{
         width: 420px;
         height: 350px;
+    }
+    .footer-bottom-content{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    
+    .news-banner-header form{
+        width: 320px;
+        height: 50px;
+    }
+
+    .customer-info p{
+        font-size: 14px;
+    }
+
+    .news-banner-header h1{
+        font-size: 20px;
+    }
+
+    .news-banner-img{
+        height: 65%;
+        bottom: -15%;
     }
 
 
@@ -59,5 +165,35 @@
     .about-us .lable2 {
         bottom: -20px;
     }
-}
 
+    .news-banner-header form{
+        width: 280px;
+    }
+    .news-banner-header{
+        align-items: end;
+    }
+    .news-banner-img{
+        height: 55%;
+        bottom: -10%;
+    }
+
+    .news-banner-header h1 {
+        font-size: 18px;
+    }
+    
+}
+@media   (max-width: 375px) {
+    .partner-item{
+        width: 120px;
+        height: 120px;
+    }
+
+    .news-banner-header form{
+        width: 240px;
+    }
+
+    .news-banner-img{
+        height: 40%;
+        bottom: -8%;
+    }
+}
