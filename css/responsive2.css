@@ -1,388 +1,426 @@
-@media (min-width:1440px){
-    footer{
-       
-        background-repeat: no-repeat;
-        background-size: cover;
-        
-    }
+@media (min-width: 1440px) {
+  footer {
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
-@media   (max-width: 1024px) {
+@media (max-width: 1024px) {
+  .news-banner-img {
+    height: 80%;
+    bottom: -15%;
+  }
 
-    .news-banner-img{
-        height: 80%;
-        bottom: -15%;
-    }
+  .news-banner-header h1 {
+    font-size: 30px;
+  }
+  .news-banner-header form {
+    width: 450px;
+  }
 
-    .news-banner-header h1{
-        font-size: 30px;
-    }
-    .news-banner-header form{
-        width: 450px;
-    }
-
-    .customer-bg {
-        position: absolute;
-        top: -50px;
-        right: 0px;
-        width: 240px;
-        height: 165px;
-    }
-    
-
+  .customer-bg {
+    position: absolute;
+    top: -50px;
+    right: 0px;
+    width: 240px;
+    height: 165px;
+  }
 }
-@media   (max-width: 992px) {
-    
-    .about-us .row{
-        row-gap: 70px;
-    }
+@media (max-width: 992px) {
+  .about-us .row {
+    row-gap: 70px;
+  }
 
-    .about-img .img-container{
-        width: 480px;
-        height: 410px;
-    }
+  .about-img .img-container {
+    width: 480px;
+    height: 410px;
+  }
 
-    .news-banner-header form{
-        width: 380px;
-    }
+  .news-banner-header form {
+    width: 380px;
+  }
 
-    .customers-slider{
-        padding: 0  ;
-    }
+  .customers-slider {
+    padding: 0;
+  }
 
-    .news-banner-header h1{
-        font-size: 24px;
-    }
+  .news-banner-header h1 {
+    font-size: 24px;
+  }
 
+  .news-banner-img {
+    height: 80%;
+    bottom: -15%;
+  }
 
-    .news-banner-img{
-        height: 80%;
-        bottom: -15%;
-    }
+  .offer-banner .offer-price {
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
 
-    .offer-banner .offer-price{
-        flex-direction: row;
-        justify-content: center;
-        width: 100%;
-    }
-    
-    .offer-price img {
-        left: 0;
-    }
-    footer{
-        background-size: cover;
-    }
+  .offer-price img {
+    left: 0;
+  }
+  footer {
+    background-size: cover;
+  }
 
-    .banner-sub-container{
-        flex-direction: column-reverse;
-        gap: 20px;
-    }
-    .banner-sub-container .offer-item{
-        align-items: center;
-        justify-content: center;
-        display: flex;
-        flex-direction: column;
-    }
+  .banner-sub-container {
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+  .banner-sub-container .offer-item {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
 
-    .customer-bg {
-        top: -75px;
-        width: 210px;
-        height: 145px;
-    }
+  .customer-bg {
+    top: -75px;
+    width: 210px;
+    height: 145px;
+  }
 
-    .our-customers .customers-header p{
-        text-align: center;
-    }
+  .our-customers .customers-header p {
+    text-align: center;
+  }
 
-    .details-imgaes {
-        height: 500px;
-        margin-bottom: 40px;
-    }
+  .details-imgaes {
+    height: 500px;
+    margin-bottom: 40px;
+  }
 
-    .details-content h2{
-        font-size: 30px;
-    }
+  .details-content h2 {
+    font-size: 30px;
+  }
 
-    .product-price h4{
-        font-size: 22px;
-    }
-
-    
-
-
-
+  .product-price h4 {
+    font-size: 22px;
+  }
 }
-@media   (max-width: 768px) {
+@media (max-width: 768px) {
+  .about-img .img-container {
+    width: 460px;
+    height: 395px;
+  }
 
-    .about-img .img-container{
-        width: 460px;
-        height: 395px;
-    }
+  .about-us .lable1,
+  .about-us .lable2 {
+    height: 50px;
+  }
+  .about-us .lable1 p,
+  .about-us .lable2 p {
+    font-size: 15px;
+  }
 
-    .about-us .lable1 ,
-    .about-us .lable2 {
-        height: 50px;
-        
+  .partner-item {
+    width: 140px;
+    height: 140px;
+  }
 
+  .news-banner-header form {
+    width: 350px;
+  }
 
-    }
-    .about-us .lable1 p,
-    .about-us .lable2 p{
-        font-size: 15px;
+  .customer-info p {
+    font-size: 16px;
+  }
 
+  .news-banner-header h1 {
+    font-size: 22px;
+  }
 
-    }
+  .news-banner-img {
+    height: 70%;
+    bottom: -15%;
+    right: 5px;
+  }
 
-    .partner-item{
-        width: 140px;
-        height: 140px;
-    }
+  .customer-bg {
+    width: 170px;
+    height: 125px;
+  }
 
-    .news-banner-header form{
-        width: 350px;
-    }
+  .details-imgaes {
+    height: 420px;
+  }
 
-    .customer-info p{
-        font-size: 16px;
-    }
+  .details-content h2 {
+    font-size: 28px;
+  }
 
-    .news-banner-header h1{
-        font-size: 22px;
-    }
+  .product-price h4 {
+    font-size: 20px;
+  }
 
-    .news-banner-img{
-        height: 70%;
-        bottom: -15%;
-        right: 5px;
+  .details-content .product-rate i,
+  .details-content .product-rate .rate-count p,
+  .details-content-description p,
+  .details-counter .add-to-cart,
+  .product-details-tab .nav-pills .nav-link,
+  .product-details-tab #pills-home,
+  .product-review .user-details .user-comment {
+    font-size: 16px;
+  }
 
-    }
+  .product-details-tab #pills-home,
+  .product-review .user-details .user-name {
+    font-size: 18px;
+  }
 
-    
+  .comment-form input,
+  .comment-form button,
+  .product-details-tab .nav-pills .nav-link {
+    height: 65px;
+    font-size: 16px;
+  }
 
-    .customer-bg {
-        
-        width: 170px;
-        height: 125px;
-    }
-
-    .details-imgaes {
-        height: 420px;
-    }
-
-    .details-content h2{
-        font-size: 28px;
-    }
-
-
-    .product-price h4{
-        font-size: 20px;
-    }
-    
-    .details-content .product-rate i,
-    .details-content .product-rate .rate-count p,
-    .details-content-description p,
-    .details-counter .add-to-cart,
-    .product-details-tab .nav-pills .nav-link ,
-    .product-details-tab #pills-home,
-    .product-review .user-details .user-comment{
-
-        font-size: 16px;
-    }
-
-    .product-details-tab #pills-home,
-    .product-review .user-details .user-name{
-        font-size: 18px;
-    }
-
-    .comment-form input,
-    .comment-form button,
-    .product-details-tab .nav-pills .nav-link{
-        height: 65px;
-        font-size: 16px;
-    }
-
-    .comment-form button{
-        width: 150px;
-    }
+  .comment-form button {
+    width: 150px;
+  }
 }
-@media   (max-width: 576px) {
-    .about-img .img-container{
-        width: 420px;
-        height: 350px;
-    }
-    .footer-bottom-content{
-        flex-direction: column;
-        gap: 10px;
-    }
+@media (max-width: 576px) {
+  .about-img .img-container {
+    width: 420px;
+    height: 350px;
+  }
+  .footer-bottom-content {
+    flex-direction: column;
+    gap: 10px;
+  }
 
-    
-    .news-banner-header form{
-        width: 320px;
-        height: 50px;
-    }
+  .news-banner-header form {
+    width: 320px;
+    height: 50px;
+  }
 
-    .customer-info p{
-        font-size: 14px;
-    }
+  .customer-info p {
+    font-size: 14px;
+  }
 
-    .news-banner-header h1{
-        font-size: 20px;
-    }
+  .news-banner-header h1 {
+    font-size: 20px;
+  }
 
-    .news-banner-img{
-        height: 65%;
-        bottom: -15%;
-    }
+  .news-banner-img {
+    height: 65%;
+    bottom: -15%;
+  }
 
-    .our-customers .customers-header p{
-        font-size: 16px;
-    }
+  .our-customers .customers-header p {
+    font-size: 16px;
+  }
 
-    .customer-bg {
-        top: -65px;
-        width: 140px;
-        height: 105px;
-    }
+  .customer-bg {
+    top: -65px;
+    width: 140px;
+    height: 105px;
+  }
 
-    .details-imgaes {
-        height: 380px;
-    }
+  .details-imgaes {
+    height: 380px;
+  }
 
-    .slider-for img, .slider-nav img {
-        height: 90%;
-    }
+  .slider-for img,
+  .slider-nav img {
+    height: 90%;
+  }
 
-    .details-content h2{
-        font-size: 24px;
-    }
+  .details-content h2 {
+    font-size: 24px;
+  }
 
-    .product-review .user-details .rate i{
-        font-size: 14px;
-    }
-
-
+  .product-review .user-details .rate i {
+    font-size: 14px;
+  }
 }
 
-@media   (max-width: 480px) {
-    .about-img .img-container{
-        width: 90%;
-        height: auto;
-    }
+@media (max-width: 480px) {
+  .about-img .img-container {
+    width: 90%;
+    height: auto;
+  }
 
-    .about-us .lable1 p,
-    .about-us .lable2 p{
-        font-size: 14px;
+  .about-us .lable1 p,
+  .about-us .lable2 p {
+    font-size: 14px;
+  }
 
+  .about-us .lable1 {
+    top: -20px;
+    right: 10px;
+  }
+  .about-us .lable2 {
+    bottom: -20px;
+    left: 10px;
+  }
 
-    }
+  .news-banner-header form {
+    width: 280px;
+  }
+  .news-banner-header {
+    align-items: end;
+  }
+  .news-banner-img {
+    height: 55%;
+    bottom: -10%;
+  }
 
-    .about-us .lable1 {
-        top: -20px;
-        right: 10px;
-    }
-    .about-us .lable2 {
-        bottom: -20px;
-        left: 10px;
-    }
+  .news-banner-header h1 {
+    font-size: 18px;
+  }
 
-    .news-banner-header form{
-        width: 280px;
-    }
-    .news-banner-header{
-        align-items: end;
-    }
-    .news-banner-img{
-        height: 55%;
-        bottom: -10%;
-    }
+  .our-customers .customers-header p {
+    font-size: 14px;
+  }
 
-    .news-banner-header h1 {
-        font-size: 18px;
-    }
+  .customer-bg {
+    top: -50px;
+    width: 130px;
+    height: 95px;
+  }
 
-    .our-customers .customers-header p{
-        font-size: 14px;
-    }
+  .details-content h2 {
+    font-size: 20px;
+  }
 
-    .customer-bg {
-        top: -50px;
-        width: 130px;
-        height: 95px;
-    }
-    
+  .product-price h4.about-img {
+    font-size: 18px;
+  }
+  .product-review .user-details .user-name {
+    font-size: 16px;
+  }
 
-    .details-content h2{
-        font-size: 20px;
-    }
+  .details-content .product-rate i,
+  .details-content .product-rate .rate-count p,
+  .details-content-description p,
+  .details-counter .add-to-cart,
+  .product-details-tab .nav-pills .nav-link,
+  .product-details-tab #pills-home,
+  .product-review .user-details .user-comment {
+    font-size: 14px;
+  }
 
+  .details-content-description .size .size-item,
+  .product-review .user-details .rate i {
+    font-size: 12px;
+  }
 
-    .product-price h4.about-img{
-        font-size: 18px;
-    }
-    .product-review .user-details .user-name{
-        font-size: 16px;
-    }
+  .comment-form input,
+  .comment-form button,
+  .product-details-tab .nav-pills .nav-link,
+  .details-counter .add-to-cart {
+    height: 55px;
+    font-size: 14px;
+  }
 
-    .details-content .product-rate i,
-    .details-content .product-rate .rate-count p,
-    .details-content-description p,
-    .details-counter .add-to-cart ,
-    .product-details-tab .nav-pills .nav-link,
-    .product-details-tab #pills-home,
-    .product-review .user-details .user-comment{
-     
+  .comment-form button {
+    width: 120px;
+  }
 
-        font-size: 14px;
-    }
+  .news-banner-header {
+    align-items: end;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .details-content-description .size .size-item,
-    .product-review .user-details .rate i{
-        font-size: 12px;
-    }
+  .news-banner-header form input {
+    z-index: 4;
+  }
 
-    .comment-form input,
-    .comment-form button,
-    .product-details-tab .nav-pills .nav-link,
-    .details-counter .add-to-cart{
-        height: 55px;
-        font-size: 14px;
-    }
+  .news-banner-img {
+    height: 39%;
+    bottom: auto;
+    top: -77px;
+    left: 0;
+    right: auto;
+  }
 
-    .comment-form button{
-        width: 120px;
-    }
+  .our-customers .item {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
 
-    .news-banner-header {
-        align-items: end;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-    }
+  .blog-header {
+    gap: 0px;
+  }
 
-    .news-banner-header form input {
-        z-index: 4;
-    }
-    
+  .our-customers .customers-header h1 {
+    font-weight: 600;
+    color: var(--primary1);
+    font-size: 20px;
+  }
+
+  .about-header h2 {
+    color: var(--primary1);
+    font-weight: 600;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .about-header p {
+    text-align: center;
+  }
+
+  .about-content p {
+    text-align: center;
+  }
+
+  .about-ratting .ratting-item p {
+    font-weight: 400;
+    color: var(--gray);
+    font-size: 17px;
+  }
+
+  .about-ratting .ratting-item h3 {
+    font-size: 20px;
+  }
+
+  .counter-box i {
+    font-size: 15px;
+    color: var(--primary3);
+  }
+
+  .top-title {
+    font-size: 19px;
+    margin-bottom: 10px;
+  }
+
+  .department_classifications_head p {
+    font-size: 14px;
+    color: var(--black);
+    font-family: "MEDIUM";
+  }
+
+  .offer-price h1,
+  .offer-price p {
+    font-size: 50px;
+  }
 }
-@media   (max-width: 375px) {
-    .partner-item{
-        width: 120px;
-        height: 120px;
-    }
+@media (max-width: 375px) {
+  .partner-item {
+    width: 120px;
+    height: 120px;
+  }
 
-    .news-banner-header form{
-        width: 240px;
-    }
+  .news-banner-header form {
+    width: 240px;
+  }
 
-    .news-banner-img{
-        height: 40%;
-        bottom: -8%;
-    }
+  .news-banner-img {
+    height: 40%;
+    bottom: -8%;
+  }
 
-    .details-imgaes {
-        height: 300px;
-    }
+  .details-imgaes {
+    height: 300px;
+  }
 
-    .slider-for img, .slider-nav img {
-        height: 90%;
-    }
+  .slider-for img,
+  .slider-nav img {
+    height: 90%;
+  }
 }

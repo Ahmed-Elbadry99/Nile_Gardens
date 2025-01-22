@@ -853,4 +853,22 @@
   .detailse .itn span {
     font-size: 15px;
   }
+
+  .hero-section .owl-dots button {
+    width: 8px;
+    height: 8px;
+  }
+
+  .hero-section .owl-dots button.active {
+    width: 50px;
+  }
+
+  .owl-dots {
+    gap: 5px;
+  }
+
+  .department_classifications {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 }
