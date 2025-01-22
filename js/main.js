@@ -31,42 +31,47 @@ if(showMenu){
 }
 
 
-$(".owl-carousel.carousel-hero").owlCarousel({
-     loop: true,
-     margin: 10,
-     nav: true,
-     autoplay: true,
-     autoplayTimeout: 3000,
-     autoplayHoverPause: true,
-     smartSpeed: 1000,  
-     responsive: {
-       0: {
-         items: 1
+if ($(".owl-carousel.carousel-hero").length > 0) {
+     $(".owl-carousel.carousel-hero").owlCarousel({
+       loop: true,
+       margin: 10,
+       nav: true,
+       autoplay: true,
+       autoplayTimeout: 3000,
+       autoplayHoverPause: true,
+       smartSpeed: 1000,
+       responsive: {
+         0: {
+           items: 1
+         }
        }
-     }
-   });
+     });
+   }
    
+if ($(".owl-carousel.department_classifications_slider").length > 0) {
+     $(".owl-carousel.department_classifications_slider").owlCarousel({
+          loop: true,
+          margin: 10,
+          // nav: true,
+          autoplay: true,
+          autoplayTimeout: 3000,
+          autoplayHoverPause: true,
+          smartSpeed: 1000,  
+          responsive: {
+            0: {
+              items: 1
+            }, 500: {
+               items: 2
+            }, 1024: {
+               items: 3
+            }, 1200: {
+               items: 4
+            }
+          }
+        });
+}
 
-$(".owl-carousel.department_classifications_slider").owlCarousel({
-     loop: true,
-     margin: 10,
-     // nav: true,
-     autoplay: true,
-     autoplayTimeout: 3000,
-     autoplayHoverPause: true,
-     smartSpeed: 1000,  
-     responsive: {
-       0: {
-         items: 1
-       }, 500: {
-          items: 2
-       }, 1024: {
-          items: 3
-       }, 1200: {
-          items: 4
-       }
-     }
-   });
+
    
 const changePasswordType = document.querySelector('.input-frm .icon');
 const passInput = document.querySelector('.frm-pass-text');
@@ -103,3 +108,13 @@ if (inputsVerification.length > 0) { // Check if inputs exist
     });
 }
 
+const filterMenus = document.querySelectorAll('.filter-menu');
+const filterMenusHeaders = document.querySelectorAll('.filter-heading');
+
+if(filterMenus){
+     filterMenusHeaders.forEach((item, index) => {
+          item.addEventListener("click", () => {
+               filterMenus[index].classList.toggle("collabsibg")
+          })
+     })
+}

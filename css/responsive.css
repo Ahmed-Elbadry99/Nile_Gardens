@@ -228,6 +228,219 @@
   .loginform form p {
     font-size: 16px;
   }
+
+  .featuers-card .img img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .featuers-card .img {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 10px;
+  }
+
+  .img-dogs-container .img {
+    width: 140px;
+    height: 101px;
+  }
+
+  .img-dogs-container .img {
+    top: -100px;
+  }
+
+  .img-dogs-container .img:nth-child(3) {
+    top: 140px;
+  }
+
+  .img-dogs-container .img:nth-child(4) {
+    top: -35px;
+    left: 170px;
+  }
+
+  .img-dogs-container .img:nth-child(5) {
+    top: 90px;
+    left: 170px;
+  }
+
+  .dog-haddi {
+    width: 151px;
+    height: 122px;
+    position: absolute;
+    top: -71px;
+    left: 53px;
+  }
+
+  .txt-head-question {
+    font-size: 27px;
+    margin-bottom: 13px;
+  }
+
+  .txt-head-question + p {
+    font-size: 16px;
+    font-family: "REGULAR";
+    margin-bottom: 30px;
+  }
+
+  .contact-section .link p {
+    font-size: 15px;
+  }
+
+  .contact-section .link .img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .contact-form form p {
+    font-size: 27px;
+  }
+
+  .ctm-inp input {
+    height: 60px;
+    font-size: 15px;
+  }
+
+  .contact-form form textarea {
+    height: 150px;
+    font-size: 15px;
+  }
+
+  .contact-form form button {
+    height: 60px;
+  }
+
+  .ctm-fiter .product-index {
+    width: calc(100% / 2 - 16px);
+  }
+
+  .item-ctm .txt p {
+    font-size: 18px;
+    margin-bottom: 18px;
+  }
+
+  .cart-tem-price-p {
+    font-size: 18px;
+    margin-bottom: 18px;
+  }
+  .item-ctm .img {
+    width: 120px;
+    height: 90px;
+  }
+
+  .item-ctm {
+    padding: 10px;
+  }
+
+  .order-summary-p {
+    font-size: 17px;
+  }
+
+  .order-summary form input {
+    font-size: 14px;
+  }
+
+  .order-summary form button {
+    font-size: 14px;
+    width: 77px;
+    height: 45px;
+  }
+
+  .order-summary a {
+    height: 50px;
+  }
+
+  .order-summary .txt p {
+    font-size: 12px;
+  }
+
+  .total-txt p {
+    font-size: 12px;
+  }
+
+  .order-summary .txt span {
+    font-size: 12px;
+  }
+
+  .total-txt span {
+    font-size: 12px;
+  }
+
+  .check-out-cards-txt,
+  .cards-container .crd .txt .text,
+  .check-out-form-address .frm-txt-p,
+  .payments-way-p {
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+
+  .payments-way label img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .payments-way label p {
+    font-size: 15px;
+  }
+
+  .payments-way label {
+    gap: 10px;
+    height: 70px;
+  }
+
+  .payments-way label span {
+    width: 15px;
+    height: 15px;
+  }
+
+  .check-out-form-address label {
+    display: block;
+    margin-bottom: 11px;
+    margin-top: 12px;
+    font-size: 17px;
+  }
+
+  .check-out-form-address input {
+    width: 100%;
+    height: 60px;
+    background-color: #f9f9f9;
+    border: 1px solid #f9f9f9;
+    border-radius: 10px;
+    padding: 10px;
+    color: var(--gray);
+    font-size: 14px;
+    transition: 0.4s;
+    outline: none;
+  }
+
+  .fav-items .img-container p {
+    font-size: 17px;
+  }
+
+  .fav-items .itm .img img {
+    width: 90px;
+    height: 70px;
+  }
+
+  .fav-items .itm .img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .fav-items .price {
+    font-size: 19px;
+  }
+
+  .fav-content-head p:nth-child(2) {
+    padding-right: 24px;
+  }
+
+  .fav-content-head p {
+    font-size: 18px;
+  }
+
+  .fav-content-head {
+    height: 60px;
+  }
 }
 
 @media (max-width: 992px) {
@@ -363,6 +576,29 @@
   .login-info .img {
     height: 345px;
   }
+
+  .txt-head-question + p {
+    font-size: 13px;
+    margin-bottom: 30px;
+  }
+
+  .txt-head-question {
+    font-size: 29px;
+    margin-bottom: 10px;
+  }
+
+  .accordion-body {
+    font-size: 13px;
+  }
+
+  .cards-container .crd .img {
+    width: 100px;
+    height: 80px;
+  }
+  .cards-container .crd .img img {
+    width: 60px;
+    height: 60px;
+  }
 }
 
 @media (max-width: 620px) {
@@ -449,5 +685,172 @@
     border-radius: 10px;
     border: 1px dashed #ffc200;
     padding: 10px;
+  }
+
+  .sub-header-page {
+    height: 110px;
+    padding-top: 16px;
+    background-position: revert;
+    background-size: cover;
+  }
+
+  .sub-header-liniks {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 0px;
+  }
+
+  .sub-header-txt {
+    color: var(--primary1);
+    font-size: 28px;
+    font-family: "MEDUIM";
+  }
+
+  .sub-header-liniks a,
+  .sub-header-liniks p {
+    font-size: 16px;
+  }
+
+  .sub-header-liniks {
+    gap: 5px;
+  }
+
+  .sub-header-liniks img {
+    height: 20px;
+  }
+
+  .img-dogs-container .img {
+    position: relative;
+    top: auto;
+    left: auto;
+  }
+
+  .img-dogs-container .img:nth-child(2) {
+    top: auto;
+    left: auto;
+  }
+
+  .img-dogs-container .img:nth-child(3) {
+    top: auto;
+    left: auto;
+  }
+
+  .img-dogs-container .img:nth-child(4) {
+    top: auto;
+    left: auto;
+  }
+
+  .img-dogs-container .img:nth-child(5) {
+    top: auto;
+    left: auto;
+  }
+
+  .img-dogs-container {
+    min-height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .dog-haddi {
+    width: 151px;
+    height: 122px;
+    position: absolute;
+    top: 72px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .ctm-inp {
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+
+  .ctm-inp input {
+    width: 100%;
+  }
+
+  .contact-links .img {
+    display: none;
+  }
+
+  .contact-form form {
+    padding: 20px 5px;
+  }
+
+  .ctm-fiter .product-index {
+    width: 100%;
+  }
+
+  .item-ctm .img {
+    width: 70px;
+    height: 50px;
+  }
+
+  .item-ctm .txt p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .cart-tem-price-p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .cart-icons .icon span {
+    font-size: 12px;
+  }
+
+  .cart-icons .icon svg {
+    width: 16px;
+  }
+
+  .cart-icons .icon i {
+    color: #999999;
+    transition: 0.4s;
+    font-size: 12px;
+  }
+
+  .cart-icons .icon {
+    padding: 5px;
+  }
+
+  .ctm-selector {
+    border: 1px solid #e9eefc;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+    width: 50px;
+    height: 32px;
+  }
+
+  .item-ctm {
+    padding: 10px;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+  }
+
+  .cards-container .crd {
+    flex-direction: column;
+  }
+
+  .cards-container .crd .txt .count-price {
+    gap: 30px;
+  }
+
+  .final-order-summary a {
+    height: 50px;
+  }
+
+  .detailse .itn p {
+    font-size: 15px;
+  }
+
+  .detailse .itn span {
+    font-size: 15px;
   }
 }
