@@ -30,10 +30,8 @@
 </head>
 <body>
 
-  <div id="loading-screen">
-    <p>Loading...</p>
-</div>
-     <main   id="main-content" style="display: none;">
+
+     <main   id="main-content" >
         
              <!--  Header  -->
              <header>
@@ -73,6 +71,7 @@
                        </form>
 
                        <div class="search-links">
+                            <button id="enableAudio">شغل الاصوات</button>
                             <a href="/login.html">
                                     <svg width="18" height="24" viewBox="0 0 18 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                        <path d="M9.17269 11.0788C9.0647 11.068 8.93511 11.068 8.81631 11.0788C6.24612 10.9925 4.20508 8.88662 4.20508 6.29482C4.20508 3.64903 6.34331 1.5 8.9999 1.5C11.6457 1.5 13.7947 3.64903 13.7947 6.29482C13.7839 8.88662 11.7429 10.9925 9.17269 11.0788Z" stroke="#333333" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
@@ -919,11 +918,10 @@
 
         <!-- our customers -->
         <section class="our-customers">
-          <div class="image-dog">
-            <img class="customer-bg" src="images/new-banner1.png" alt="">
+          <div class=" customer-bg image-dog">
+            <img class="" src="images/new-banner1.png" alt="">
 
-            <audio  preload="auto" id="catSound" src="./dog-bark-179915.mp3" loop></audio>
-            <audio  preload="auto" id="birds" src="./cardinal-37075.mp3"></audio>
+            <audio id="catSound" src="./dog-bark-179915.mp3" loop ></audio>
           </div>
             <div class="main-container">
                 <div class="customers-header">
@@ -1164,7 +1162,8 @@
                     <a class="all-blogs" href="#">المزيد من الاخبار</a>
                 </div>
             </div>
-            <img class="footer-top-img" src="images/footer-dog.png" alt="">
+            <img class="footer-top-img  sound-birds"  src="images/footer-dog.png" alt="">
+            <audio  preload="auto" id="birds" src="./cardinal-37075.mp3"></audio>
 
         </section>
 
@@ -1174,7 +1173,7 @@
             <div class="main-container">
                 <div class="row">
                     <div class="col-lg-5 col-md-6 col-sm-12 footer-col">
-                        <div class="footer-logo">
+                        <div class="footer-logo ">
                             <img src="images/footer-logopng.png" alt="">
                         </div>
                         <div class="footer-text">

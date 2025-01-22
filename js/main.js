@@ -246,75 +246,113 @@ if (inputsVerification.length > 0) { // Check if inputs exist
     });
 }
 
-// document.querySelector('.image-dog').addEventListener('mouseenter', function() {
-//   document.getElementById('catSound').play();
-// });
-
-// document.querySelector('.image-dog').addEventListener('mouseleave', function() {
-//   document.getElementById('catSound').pause();
-//   document.getElementById('catSound').currentTime = 0; // Reset sound to the start
-// });
 
 
 
 let soundTimeout;
 
-// Ensure audio plays only after user interaction
-document.querySelector('.image-dog').addEventListener('mouseenter', function() {
+let imageDog = document.querySelector('.image-dog');
+if (imageDog) {
+  
+  // Ensure audio plays only after user interaction
+
+  
+  document.querySelector('.image-dog').addEventListener('mouseenter', function() {
+          const audio = document.getElementById('catSound');
+          console.log('Audio element:', audio);
+          
+          // Check if the play method is available and the audio can be played
+          audio.play().catch((error) => {
+              console.log('Audio playback was prevented:', error);
+          });
+  });
+  
+  document.querySelector('.image-dog').addEventListener('mouseleave', function() {
+      const audio = document.getElementById('catSound');
+      audio.pause();
+      audio.currentTime = 0; // Reset sound to the start
+  });
+}
+
+
+if(document.querySelector('.dog-sound')){
+
+  
+  document.getElementById('enableAudio').addEventListener('click', function() {
+
+  document.querySelector('.dog-sound').addEventListener('mouseenter', function() {
+     
+          const audio = document.getElementById('dogSound');
+          
+          
+          // Check if the play method is available and the audio can be played
+          audio.play().catch((error) => {
+              console.log('Audio playback was prevented:', error);
+          });
+     
+  });
+  
+  document.querySelector('.dog-sound').addEventListener('mouseleave', function() {
+
+      const audio = document.getElementById('dogSound');
+      audio.pause();
+      audio.currentTime = 0; // Reset sound to the start
+  });
+
+});
+
+
+}
+
+
+if (document.querySelector('.sound-cat')) {
+
+
+  
+  // Ensure audio plays only after user interaction
+  document.querySelector('.sound-cat').addEventListener('mouseenter', function() {
     soundTimeout = setTimeout(() => {
-        const audio = document.getElementById('catSound');
+        const audio = document.getElementById('soundCat');
         // Check if the play method is available and the audio can be played
         audio.play().catch((error) => {
             console.log('Audio playback was prevented:', error);
         });
     }, 100); // Delay of 1 second
-});
-
-document.querySelector('.image-dog').addEventListener('mouseleave', function() {
+  });
+  
+  document.querySelector('.sound-cat').addEventListener('mouseleave', function() {
     clearTimeout(soundTimeout); // Clear the timeout
-    const audio = document.getElementById('catSound');
+    const audio = document.getElementById('soundCat');
     audio.pause();
     audio.currentTime = 0; // Reset sound to the start
-});
+  });
+  
+
+} 
 
 
 
-// Ensure audio plays only after user interaction
-document.querySelector('.dog-sound').addEventListener('mouseenter', function() {
-    soundTimeout = setTimeout(() => {
-        const audio = document.getElementById('dogSound');
+if (document.querySelector('.sound-birds')) {
+
+
+  
+  // Ensure audio plays only after user interaction
+  document.querySelector('.sound-birds').addEventListener('mouseenter', function() {
+        const audio = document.getElementById('birds');
         // Check if the play method is available and the audio can be played
         audio.play().catch((error) => {
             console.log('Audio playback was prevented:', error);
         });
-    }, 100); // Delay of 1 second
-});
-
-document.querySelector('.dog-sound').addEventListener('mouseleave', function() {
-    clearTimeout(soundTimeout); // Clear the timeout
-    const audio = document.getElementById('dogSound');
+  });
+  
+  document.querySelector('.sound-birds').addEventListener('mouseleave', function() {
+    const audio = document.getElementById('soundCat');
     audio.pause();
     audio.currentTime = 0; // Reset sound to the start
-});
+  });
+  
 
-
-// Ensure audio plays only after user interaction
-document.querySelector('.sound-cat').addEventListener('mouseenter', function() {
-  soundTimeout = setTimeout(() => {
-      const audio = document.getElementById('soundCat');
-      // Check if the play method is available and the audio can be played
-      audio.play().catch((error) => {
-          console.log('Audio playback was prevented:', error);
-      });
-  }, 100); // Delay of 1 second
-});
-
-document.querySelector('.sound-cat').addEventListener('mouseleave', function() {
-  clearTimeout(soundTimeout); // Clear the timeout
-  const audio = document.getElementById('soundCat');
-  audio.pause();
-  audio.currentTime = 0; // Reset sound to the start
-});
+} 
 
 
 
@@ -329,58 +367,151 @@ document.querySelector('.sound-cat').addEventListener('mouseleave', function() {
 //   });
 // });
 
+// if (document.getElementById('birds')) {
+  
+//   window.addEventListener('load', function() {
+//     const audio = document.getElementById('birds');
+  
+//     function tryPlayAudio() {
+//         audio.play().catch((error) => {
+//             console.log('Audio playback was prevented:', error);
+//         });
+//     }
+  
+//     // Attempt to play audio on page load
+//     tryPlayAudio();
+  
+//     // Also try to play when the page becomes visible again
+//     document.addEventListener('visibilitychange', function() {
+//         if (document.visibilityState === 'visible') {
+//             tryPlayAudio();
+//         }
+//     });
+//   });
+// }
 
 
-window.addEventListener('load', function() {
-  const audio = document.getElementById('birds');
 
-  function tryPlayAudio() {
-      audio.play().catch((error) => {
-          console.log('Audio playback was prevented:', error);
-      });
-  }
-
-  // Attempt to play audio on page load
-  tryPlayAudio();
-
-  // Also try to play when the page becomes visible again
-  document.addEventListener('visibilitychange', function() {
-      if (document.visibilityState === 'visible') {
-          tryPlayAudio();
-      }
+if ( document.getElementById('loading-screen')) {
+  
+  window.addEventListener('load', function() {
+    // Hide the loading screen
+    document.getElementById('loading-screen').style.display = 'none';
+  
+    // Show the main content
+    document.getElementById('main-content').style.display = 'block';
+  
+    // Attempt to play audio
+    const audio = document.getElementById('dogSound');
+    audio.play().catch((error) => {
+        console.log('Audio playback was prevented:', error);
+    });
   });
+  window.onload = function() {
+    // All resources (images, audio, scripts, etc.) are fully loaded
+  
+    // Hide the loading screen
+    document.getElementById('loading-screen').style.display = 'none';
+  
+    // Show the main content
+    document.getElementById('main-content').style.display = 'block';
+  
+    // Play the audio after everything is loaded
+    const audio = document.getElementById('dogSound');
+    audio.play().catch((error) => {
+        console.log('Audio playback was prevented:', error);
+    });
+  };
+}
+
+
+
+
+
+
+// slick
+
+$(document).ready(function(){
+  // Main slider
+ if ($('.slider-for').length) {
+
+
+  $('.slider-for').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    fade: true,
+    asNavFor: '.slider-nav'
+});
+
+// Thumbnail navigation slider
+$('.slider-nav').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    asNavFor: '.slider-for',
+    focusOnSelect: true,
+    arrows: true,
+    centerMode: true,
+    centerPadding: '0',
+});
+
+
+ }
+});
+
+// radios select add active to .size-item select
+$('.size-item').on('click', function() {
+  $('.size-item').removeClass('active');
+  $(this).addClass('active');
 });
 
 
 
-window.addEventListener('load', function() {
-  // Hide the loading screen
-  document.getElementById('loading-screen').style.display = 'none';
+// <div class="details-counter">
+//                                 <div class="counter">
+//                                     <button class="counter-btn" onclick="decrement()">-</button>
+//                                     <input type="text" id="counter" value="1">
+//                                     <button class="counter-btn" onclick="increment()">+</button>
+//                                 </div>
+//                                 <div class="add-to-cart">
+//                                     <button class="add-to-cart-btn" type="submit">أضف إلى السلة</button>
+//                                 </div>
+//                              </div> this is the code for the counter and the add to cart button in the details page create a function for the counter
+function increment() {
+    var input = document.getElementById("counter");
+    var value = parseInt(input.value, 10);
+    value = isNaN(value) ? 0 : value;
+    value++;
+    input.value = value;
+}
+// create decrementt function
+function decrement() {
+    var input = document.getElementById("counter");
+    var value = parseInt(input.value, 10);
+    if (value > 1) {
+        value = isNaN(value) ?
+        0 : value;
+        value--;
+        input.value = value;
+    }
 
-  // Show the main content
-  document.getElementById('main-content').style.display = 'block';
+}
 
-  // Attempt to play audio
-  const audio = document.getElementById('dogSound');
-  audio.play().catch((error) => {
-      console.log('Audio playback was prevented:', error);
+
+const confirmPasswordInput = document.getElementById('confirm-password');
+const confirmPasswordInputs = document.querySelectorAll('input[type="password"]');
+const confirmPasswordIcons = document.querySelectorAll('.input-group img');
+
+confirmPasswordIcons.forEach((icon, index) => {
+  icon.addEventListener('click', () => {
+    const input = confirmPasswordInputs[index];
+    if (input.getAttribute('type') === 'password') {
+      input.setAttribute('type', 'text');
+      icon.src = 'images/icons-eye-slash (1).svg';
+    } else {
+      input.setAttribute('type', 'password');
+      icon.src = 'images/icons.svg';
+    }
   });
 });
 
-
-
-window.onload = function() {
-  // All resources (images, audio, scripts, etc.) are fully loaded
-
-  // Hide the loading screen
-  document.getElementById('loading-screen').style.display = 'none';
-
-  // Show the main content
-  document.getElementById('main-content').style.display = 'block';
-
-  // Play the audio after everything is loaded
-  const audio = document.getElementById('dogSound');
-  audio.play().catch((error) => {
-      console.log('Audio playback was prevented:', error);
-  });
-};

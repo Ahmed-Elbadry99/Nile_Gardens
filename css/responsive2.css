@@ -92,6 +92,20 @@
     .our-customers .customers-header p{
         text-align: center;
     }
+
+    .details-imgaes {
+        height: 500px;
+        margin-bottom: 40px;
+    }
+
+    .details-content h2{
+        font-size: 30px;
+    }
+
+    .product-price h4{
+        font-size: 22px;
+    }
+
     
 
 
@@ -149,8 +163,46 @@
         width: 170px;
         height: 125px;
     }
-    
 
+    .details-imgaes {
+        height: 420px;
+    }
+
+    .details-content h2{
+        font-size: 28px;
+    }
+
+
+    .product-price h4{
+        font-size: 20px;
+    }
+    
+    .details-content .product-rate i,
+    .details-content .product-rate .rate-count p,
+    .details-content-description p,
+    .details-counter .add-to-cart,
+    .product-details-tab .nav-pills .nav-link ,
+    .product-details-tab #pills-home,
+    .product-review .user-details .user-comment{
+
+        font-size: 16px;
+    }
+
+    .product-details-tab #pills-home,
+    .product-review .user-details .user-name{
+        font-size: 18px;
+    }
+
+    .comment-form input,
+    .comment-form button,
+    .product-details-tab .nav-pills .nav-link{
+        height: 65px;
+        font-size: 16px;
+    }
+
+    .comment-form button{
+        width: 150px;
+    }
 }
 @media   (max-width: 576px) {
     .about-img .img-container{
@@ -190,6 +242,23 @@
         width: 140px;
         height: 105px;
     }
+
+    .details-imgaes {
+        height: 380px;
+    }
+
+    .slider-for img, .slider-nav img {
+        height: 90%;
+    }
+
+    .details-content h2{
+        font-size: 24px;
+    }
+
+    .product-review .user-details .rate i{
+        font-size: 14px;
+    }
+
 
 }
 
@@ -240,6 +309,48 @@
         height: 95px;
     }
     
+
+    .details-content h2{
+        font-size: 20px;
+    }
+
+
+    .product-price h4.about-img{
+        font-size: 18px;
+    }
+    .product-review .user-details .user-name{
+        font-size: 16px;
+    }
+
+    .details-content .product-rate i,
+    .details-content .product-rate .rate-count p,
+    .details-content-description p,
+    .details-counter .add-to-cart ,
+    .product-details-tab .nav-pills .nav-link,
+    .product-details-tab #pills-home,
+    .product-review .user-details .user-comment{
+     
+
+        font-size: 14px;
+    }
+
+    .details-content-description .size .size-item,
+    .product-review .user-details .rate i{
+        font-size: 12px;
+    }
+
+    .comment-form input,
+    .comment-form button,
+    .product-details-tab .nav-pills .nav-link,
+    .details-counter .add-to-cart{
+        height: 55px;
+        font-size: 14px;
+    }
+
+    .comment-form button{
+        width: 120px;
+    }
+    
 }
 @media   (max-width: 375px) {
     .partner-item{
@@ -254,5 +365,13 @@
     .news-banner-img{
         height: 40%;
         bottom: -8%;
+    }
+
+    .details-imgaes {
+        height: 300px;
+    }
+
+    .slider-for img, .slider-nav img {
+        height: 90%;
     }
 }
