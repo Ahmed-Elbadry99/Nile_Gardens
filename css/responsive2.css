@@ -1,0 +1,388 @@
+@media (min-width:1440px){
+    footer{
+       
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+}
+@media   (max-width: 1024px) {
+
+    .news-banner-img{
+        height: 80%;
+        bottom: -15%;
+    }
+
+    .news-banner-header h1{
+        font-size: 30px;
+    }
+    .news-banner-header form{
+        width: 450px;
+    }
+
+    .customer-bg {
+        position: absolute;
+        top: -50px;
+        right: 0px;
+        width: 240px;
+        height: 165px;
+    }
+    
+
+}
+@media   (max-width: 992px) {
+    
+    .about-us .row{
+        row-gap: 70px;
+    }
+
+    .about-img .img-container{
+        width: 480px;
+        height: 410px;
+    }
+
+    .news-banner-header form{
+        width: 380px;
+    }
+
+    .customers-slider{
+        padding: 0  ;
+    }
+
+    .news-banner-header h1{
+        font-size: 24px;
+    }
+
+
+    .news-banner-img{
+        height: 80%;
+        bottom: -15%;
+    }
+
+    .offer-banner .offer-price{
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .offer-price img {
+        left: 0;
+    }
+    footer{
+        background-size: cover;
+    }
+
+    .banner-sub-container{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .banner-sub-container .offer-item{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .customer-bg {
+        top: -75px;
+        width: 210px;
+        height: 145px;
+    }
+
+    .our-customers .customers-header p{
+        text-align: center;
+    }
+
+    .details-imgaes {
+        height: 500px;
+        margin-bottom: 40px;
+    }
+
+    .details-content h2{
+        font-size: 30px;
+    }
+
+    .product-price h4{
+        font-size: 22px;
+    }
+
+    
+
+
+
+}
+@media   (max-width: 768px) {
+
+    .about-img .img-container{
+        width: 460px;
+        height: 395px;
+    }
+
+    .about-us .lable1 ,
+    .about-us .lable2 {
+        height: 50px;
+        
+
+
+    }
+    .about-us .lable1 p,
+    .about-us .lable2 p{
+        font-size: 15px;
+
+
+    }
+
+    .partner-item{
+        width: 140px;
+        height: 140px;
+    }
+
+    .news-banner-header form{
+        width: 350px;
+    }
+
+    .customer-info p{
+        font-size: 16px;
+    }
+
+    .news-banner-header h1{
+        font-size: 22px;
+    }
+
+    .news-banner-img{
+        height: 70%;
+        bottom: -15%;
+        right: 5px;
+
+    }
+
+    
+
+    .customer-bg {
+        
+        width: 170px;
+        height: 125px;
+    }
+
+    .details-imgaes {
+        height: 420px;
+    }
+
+    .details-content h2{
+        font-size: 28px;
+    }
+
+
+    .product-price h4{
+        font-size: 20px;
+    }
+    
+    .details-content .product-rate i,
+    .details-content .product-rate .rate-count p,
+    .details-content-description p,
+    .details-counter .add-to-cart,
+    .product-details-tab .nav-pills .nav-link ,
+    .product-details-tab #pills-home,
+    .product-review .user-details .user-comment{
+
+        font-size: 16px;
+    }
+
+    .product-details-tab #pills-home,
+    .product-review .user-details .user-name{
+        font-size: 18px;
+    }
+
+    .comment-form input,
+    .comment-form button,
+    .product-details-tab .nav-pills .nav-link{
+        height: 65px;
+        font-size: 16px;
+    }
+
+    .comment-form button{
+        width: 150px;
+    }
+}
+@media   (max-width: 576px) {
+    .about-img .img-container{
+        width: 420px;
+        height: 350px;
+    }
+    .footer-bottom-content{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    
+    .news-banner-header form{
+        width: 320px;
+        height: 50px;
+    }
+
+    .customer-info p{
+        font-size: 14px;
+    }
+
+    .news-banner-header h1{
+        font-size: 20px;
+    }
+
+    .news-banner-img{
+        height: 65%;
+        bottom: -15%;
+    }
+
+    .our-customers .customers-header p{
+        font-size: 16px;
+    }
+
+    .customer-bg {
+        top: -65px;
+        width: 140px;
+        height: 105px;
+    }
+
+    .details-imgaes {
+        height: 380px;
+    }
+
+    .slider-for img, .slider-nav img {
+        height: 90%;
+    }
+
+    .details-content h2{
+        font-size: 24px;
+    }
+
+    .product-review .user-details .rate i{
+        font-size: 14px;
+    }
+
+
+}
+
+@media   (max-width: 480px) {
+    .about-img .img-container{
+        width: 90%;
+        height: auto;
+    }
+
+    .about-us .lable1 p,
+    .about-us .lable2 p{
+        font-size: 14px;
+
+
+    }
+
+    .about-us .lable1 {
+        top: -20px;
+        right: 10px;
+    }
+    .about-us .lable2 {
+        bottom: -20px;
+        left: 10px;
+    }
+
+    .news-banner-header form{
+        width: 280px;
+    }
+    .news-banner-header{
+        align-items: end;
+    }
+    .news-banner-img{
+        height: 55%;
+        bottom: -10%;
+    }
+
+    .news-banner-header h1 {
+        font-size: 18px;
+    }
+
+    .our-customers .customers-header p{
+        font-size: 14px;
+    }
+
+    .customer-bg {
+        top: -50px;
+        width: 130px;
+        height: 95px;
+    }
+    
+
+    .details-content h2{
+        font-size: 20px;
+    }
+
+
+    .product-price h4.about-img{
+        font-size: 18px;
+    }
+    .product-review .user-details .user-name{
+        font-size: 16px;
+    }
+
+    .details-content .product-rate i,
+    .details-content .product-rate .rate-count p,
+    .details-content-description p,
+    .details-counter .add-to-cart ,
+    .product-details-tab .nav-pills .nav-link,
+    .product-details-tab #pills-home,
+    .product-review .user-details .user-comment{
+     
+
+        font-size: 14px;
+    }
+
+    .details-content-description .size .size-item,
+    .product-review .user-details .rate i{
+        font-size: 12px;
+    }
+
+    .comment-form input,
+    .comment-form button,
+    .product-details-tab .nav-pills .nav-link,
+    .details-counter .add-to-cart{
+        height: 55px;
+        font-size: 14px;
+    }
+
+    .comment-form button{
+        width: 120px;
+    }
+
+    .news-banner-header {
+        align-items: end;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .news-banner-header form input {
+        z-index: 4;
+    }
+    
+}
+@media   (max-width: 375px) {
+    .partner-item{
+        width: 120px;
+        height: 120px;
+    }
+
+    .news-banner-header form{
+        width: 240px;
+    }
+
+    .news-banner-img{
+        height: 40%;
+        bottom: -8%;
+    }
+
+    .details-imgaes {
+        height: 300px;
+    }
+
+    .slider-for img, .slider-nav img {
+        height: 90%;
+    }
+}

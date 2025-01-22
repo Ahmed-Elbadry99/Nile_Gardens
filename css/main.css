@@ -137,7 +137,7 @@ p {
   position: absolute;
   top: 45px;
   left: 47px;
-  animation: backInLeft 1s forwards;
+  animation: backInLeft 1s forwards , tada 2s infinite 1s;
 }
 
 .discount {
@@ -212,11 +212,12 @@ p {
   gap: 10px;
 }
 
-.owl-nav {
+
+.hero-section .owl-nav {
   display: none;
 }
 
-.owl-dots button {
+.hero-section .owl-dots button {
   width: 14px;
   height: 14px;
   background-color: #ffffff !important;
@@ -224,7 +225,7 @@ p {
   transition: 0.3s;
 }
 
-.owl-dots button.active {
+.hero-section .owl-dots button.active {
   width: 80px;
   border-radius: 10px;
   background-color: #fff !important;
@@ -2076,4 +2077,8 @@ section.cart {
 
 .fav-items .add-to-cart svg path{
     stroke: #fff;
+}
+
+.product-index .txt .desc, .product-index .txt .price{  
+    font-family: "MEDIUM";
 }

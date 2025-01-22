@@ -262,6 +262,7 @@
   color: var(--black);
   margin-top: 10px;
   display: block;
+  font-family: "MEDIUM";
 }
 
 .show-menu {
@@ -331,6 +332,7 @@
   bottom: 0;
   width: 300px;
   transition: 0.4s;
+  z-index: 10;
 }
 
 .responsive-menu.show{
@@ -409,6 +411,7 @@
   background-color: #d1d1d178;
   transition: 0.4s;
   left: -100%;
+  z-index: 1;
 }
 
 .overlay.show{
