@@ -260,6 +260,7 @@ const filterMenusHeaders = document.querySelectorAll('.filter-heading');
 if(filterMenus){
      filterMenusHeaders.forEach((item, index) => {
           item.addEventListener("click", () => {
+            console.log("first")
                filterMenus[index].classList.toggle("collabsibg")
           })
      })
