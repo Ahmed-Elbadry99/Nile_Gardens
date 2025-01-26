@@ -515,3 +515,29 @@ confirmPasswordIcons.forEach((icon, index) => {
   });
 });
 
+
+// 
+
+
+// Select the parent element
+const orderStatus = document.querySelector('.order-status');
+
+// Check all child elements
+
+if(orderStatus){
+  const children = orderStatus.querySelectorAll('.order-status-icon .init-group.done');
+
+    // Calculate width based on the position of the last `.done` child
+    if (children.length > 0) {
+      const lastChildIndex = Array.from(children).length; // Get the number of `.done` elements
+      
+      
+      
+      
+      // Adjust the `::after` width
+      const widthPercentage = (lastChildIndex-1) * 33.3; // Multiply by 33.3 for each completed step
+      orderStatus.style.setProperty('--progress-width', `${widthPercentage}%`);
+    }
+}
+
+

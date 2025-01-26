@@ -5,6 +5,18 @@
         background-size: cover;
         
     }
+
+    
+}
+
+@media   (max-width: 1200px) {
+    
+    .my-account-sidebar-item-icon .user-email{
+        font-size: 18px;
+    }
+
+    
+
 }
 @media   (max-width: 1024px) {
 
@@ -28,6 +40,10 @@
         height: 165px;
     }
     
+    /* logout */
+    .logout-container{
+        width: 600px;
+    }
 
 }
 @media   (max-width: 992px) {
@@ -107,7 +123,16 @@
     }
 
     
+    /* profile */
+    .my-account{
+        margin: 70px 0px ;
+    }
 
+
+    /* logout */
+    .logout-container{
+        width: 570px;
+    }
 
 
 }
@@ -203,6 +228,79 @@
     .comment-form button{
         width: 150px;
     }
+
+    /* profile home*/
+   
+    .my-account-content h4{
+        font-size: 28px;
+    }
+
+    .my-account-content form .form-group label{
+        font-size: 18px;
+    }
+    .my-account-content form .form-group button{
+        height: 64px;
+    }
+    /* profile orders */
+    .my-orders-header h4,
+    .current-orders-header h4,
+    .orders-section-header,
+    .details-header .order-number h4,
+    .details-header .order-price h4{
+        font-size: 20px;
+    }
+    .my-orders-header .nav-pills .nav-link{
+        font-size: 18px;
+        height: 40px;
+    }
+    .info-item h5{
+        font-size: 18px;
+    }
+    .pay-description p, .info-item p{
+        font-size: 14px;
+    }
+
+    .current-orders-header a{
+        font-size: 14px;
+        height: 40px;
+    }
+    .order-item-details .item-name,
+    .order-item-details .item-price,
+    .order-item-details .item-date{
+        font-size: 16px;
+    }
+
+    .order-item-img {
+        width: 100px;
+        height: 85px;
+    }
+
+    /* logout */
+    .logout-container{
+        width: 70%;
+    }
+    .logoout-content h4{
+        font-size: 20px;
+    }
+    .logoout-content p{
+        font-size: 16px;
+    }
+    .logout-action a{
+        font-size: 16px;
+        width: 150px;
+    }
+
+    .logoout-content{
+        gap: 20px;
+    }
+
+    .logout-container .logout-img{
+        width: 140px;
+        height: 140px;
+    }
+    .logout-container .logout-img img{
+        width: 50%;
+    }
 }
 @media   (max-width: 576px) {
     .about-img .img-container{
@@ -257,6 +355,86 @@
 
     .product-review .user-details .rate i{
         font-size: 14px;
+    }
+
+    /* profile home */
+    .my-account-sidebar-item-icon .user-email,
+    .my-account-sidebar-item-icon .welcome,
+    .my-account-sidebar-item-links a p,
+    .my-account-content form .form-group label {
+        font-size: 16px;
+    } 
+    .my-account-content h4{
+        font-size: 20px;
+    }
+    
+    .my-account-content form .form-group button{
+        height: 50px;
+    }
+
+    .info-item h5{
+        font-size: 16px;
+    }
+
+    /* profile orders */
+    .my-orders-header h4,
+    .current-orders-header h4,
+    .orders-section-header,
+    .details-header .order-number h4 ,
+    .details-header .order-price h4{
+        font-size: 18px;
+    }
+    .my-orders-header .nav-pills .nav-link{
+        font-size: 16px;
+        height: 35px;
+    }
+
+    .current-orders-header a{
+        font-size: 13px;
+        height: 40px;
+    }
+    .order-item-details .item-name,
+    .order-item-details .item-price,
+    .order-item-details .item-date{
+        font-size: 14px;
+    }
+
+    .order-item-img {
+        width: 90px;
+        height: 65px;
+    }
+    .order-item-img img{
+        width: 70%;
+    }
+    .current-orders-body{
+        padding: 10px;
+    }
+    .current-orders-body .order-item{
+        gap: 10px;
+    }
+
+    .order-status-icon .init-group {
+        width: 30px;
+        height: 30px;
+    }
+    .order-status-icon{
+        width: 50px;
+        height: 50px;
+    }
+
+    /* logout */
+    .logout-container{
+        width: 80%;
+    }
+    .logoout-content h4{
+        font-size: 18px;
+    }
+    .logoout-content p{
+        font-size: 14px;
+    }
+    .logout-action a{
+        font-size: 14px;
+        width: 130px;
     }
 
 
@@ -350,6 +528,31 @@
     .comment-form button{
         width: 120px;
     }
+
+    /* order profile */
+    .product-review{
+        flex-direction: column;
+    }
+
+    /* logout */
+    .logout-container{
+        width: 85%;
+        padding: 20px;
+    }
+    .logoout-content h4{
+        font-size: 18px;
+    }
+    .logoout-content p{
+        font-size: 14px;
+    }
+    .logout-action{
+        gap : 10px;
+    }
+    .logout-action a{
+        font-size: 12px;
+        width: 105px;
+        height: 45px;
+    }
     
 }
 @media   (max-width: 375px) {
@@ -373,5 +576,25 @@
 
     .slider-for img, .slider-nav img {
         height: 90%;
+    }
+
+
+    /* logout */
+    .logout-container{
+        width: 90%;
+    }
+    .logoout-content h4{
+        font-size: 18px;
+    }
+    .logoout-content p{
+        font-size: 14px;
+    }
+    .logout-action{
+        gap : 10px;
+    }
+    .logout-action a{
+        font-size: 12px;
+        width: 105px;
+        height: 45px;
     }
 }
