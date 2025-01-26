@@ -652,6 +652,11 @@ section.most-sales {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 5px;
+}
+
+.not-have-account p {
+   margin-bottom: 0 !important;
 }
 
 .not-have-account p {
@@ -663,6 +668,7 @@ section.most-sales {
   font-size: 16px;
   color: var(--primary1);
   font-family: "MEDIUM";
+  text-decoration: underline;
 }
 
 .login-info {
@@ -677,7 +683,6 @@ section.most-sales {
 
 .txt-text-heaf {
   font-size: 32px;
-  font-family: "BOLD";
   margin-top: 70px;
   width: 70%;
   line-height: 2;
@@ -686,7 +691,6 @@ section.most-sales {
 
 .login-info p {
   width: 85%;
-  font-family: "MEDIUM";
   font-size: 18px;
 }
 

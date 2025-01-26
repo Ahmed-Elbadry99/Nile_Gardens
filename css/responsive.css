@@ -6,7 +6,6 @@
 
   .login-info p {
     width: 100%;
-    font-family: "MEDIUM";
     font-size: 16px;
   }
 
@@ -713,10 +712,18 @@
 
   .loginform {
     width: 100%;
+    position: absolute;
+    top: 40%;
+    z-index: 1;
+    width: 95%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 20px;
+    overflow: hidden;
   }
 
   .login-info .img {
-    height: 345px;
+    display: none;
   }
 
   .txt-head-question + p {
@@ -754,6 +761,15 @@
   .sub-header-page {
     height: 145px;
     padding-top: 25px;
+  }
+
+  .txt-text-heaf {
+    text-align: center;
+    font-size: 16px;
+  }
+  .login-info p {
+    font-size: 14px;
+    text-align: center;
   }
 }
 
@@ -1081,5 +1097,38 @@
 
   .fav-content-head p:nth-child(2) {
     padding-right: 46px;
+  }
+
+  .txt-text-heaf {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .login-info p {
+    font-size: 12px;
+  }
+
+  .loginform form .frm-head,
+  .loginform form button,
+  .not-have-account a {
+    font-family: "LIGHT";
+  }
+
+  .input-frm label {
+    font-size: 13px;
+    margin-bottom: 0;
+  }
+
+  .input-frm input {
+    font-size: 13px;
+  }
+
+  .nav-tabs .nav-link {
+    font-size: 15px;
+  }
+
+  .department_classifications_slider .card p {
+    font-size: 13px;
   }
 }
