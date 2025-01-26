@@ -468,9 +468,6 @@ section.most-sales {
   flex-wrap: wrap;
 }
 
-.product-suggestions.products-container-cards{
-  margin-bottom: 120px;
-}
 
 .product-sug-container h4{
   margin-bottom: 40px;
@@ -1354,9 +1351,7 @@ textarea {
   margin-bottom: 20px;
 }
 
-section.cart {
-  margin-top: 50px;
-}
+
 
 .item-ctm .txt p {
   color: var(--black);

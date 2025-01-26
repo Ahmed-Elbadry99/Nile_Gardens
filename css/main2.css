@@ -725,6 +725,7 @@ footer{
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
+    margin-top: 120px;
     
 }
 .footer-top-img{
@@ -1375,7 +1376,7 @@ footer .row{
 
 .product-details-tab #pills-home{
     color: var(--gray);
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'MEDIUM';
     line-height: 1.8;
 }
@@ -1542,6 +1543,10 @@ footer .row{
     opacity: 1;
     transition: .3s ease-in-out;
     
+}
+
+.my-account-sidebar-item-links a.link-active p{
+    color:var(--primary1)
 }
 
 .my-account-sidebar-item-links a:hover img{
