@@ -724,14 +724,15 @@ footer{
     padding: 70px 0 0;
     background-repeat: no-repeat;
     background-size: contain;
+    position: relative;
     
 }
 .footer-top-img{
     position: absolute;
-    bottom: -240px;
+    top: -135px;
     left: 10px;
     
-    z-index: 0;
+    z-index: 2;
 }
 
 footer .row{
@@ -1029,7 +1030,7 @@ footer .row{
 }
 
 .details-imgaes{
-    height: 650px;
+    height: 600px;
 }
 /* Basic styles */
 
@@ -1037,7 +1038,7 @@ footer .row{
     height: 75%;
 }
 .slider-for, .slider-nav {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     direction: ltr;
     
@@ -1071,6 +1072,7 @@ footer .row{
     border-radius: 14px;
     background-color: #F2F2F2;
     box-sizing: border-box;
+    width: 100%;
 }
 
 .slider-nav .slick-current{
