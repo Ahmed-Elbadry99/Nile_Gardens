@@ -398,7 +398,8 @@ p{
 
 .our-customers .customers-header p {
     color: var(--black);
-    font-weight: 600;
+    font-size: 16px;
+    font-family: 'MEDIUM';
 }
 
 .our-customers .item {
@@ -593,6 +594,10 @@ p{
     margin-bottom: 40px;
 }
 
+.blog-header p{
+    font-family: 'MEDIUM';
+    font-size: 16px;
+}
 .blog-content{
     display: flex;
     flex-direction: column;
