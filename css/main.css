@@ -468,6 +468,14 @@ section.most-sales {
   flex-wrap: wrap;
 }
 
+.product-suggestions.products-container-cards{
+  margin-bottom: 100px;
+}
+
+.product-sug-container h4{
+  margin-bottom: 30px;
+}
+
 .product-index .txt {
   margin-top: 15px;
 }
