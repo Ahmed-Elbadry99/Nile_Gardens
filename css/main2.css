@@ -35,6 +35,8 @@ p{
 
 .about-header p{
     color: var(--black);
+    font-family: 'MEDIUM';
+    font-size: 16px;
 }
 
 .about-content {
