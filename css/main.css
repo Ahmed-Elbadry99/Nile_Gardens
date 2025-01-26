@@ -473,7 +473,10 @@ section.most-sales {
 }
 
 .product-sug-container h4{
-  margin-bottom: 30px;
+  margin-bottom: 40px;
+  font-size: 36px;
+  font-family: "MEDIUM";
+  color: var(--primary1);
 }
 
 .product-index .txt {

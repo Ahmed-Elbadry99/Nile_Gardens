@@ -109,7 +109,8 @@
     margin-bottom: 40px;
   }
 
-  .details-content h2 {
+  .details-content h2,
+  .product-sug-container h4 {
     font-size: 30px;
   }
 
@@ -178,7 +179,8 @@
     height: 420px;
   }
 
-  .details-content h2 {
+  .details-content h2,
+  .product-sug-container h4 {
     font-size: 28px;
   }
 
@@ -354,7 +356,8 @@
     height: 90%;
   }
 
-  .details-content h2 {
+  .details-content h2,
+  .product-sug-container h4 {
     font-size: 24px;
   }
 
@@ -500,7 +503,8 @@
     height: 95px;
   }
 
-  .details-content h2 {
+  .details-content h2,
+  .product-sug-container h4 {
     font-size: 20px;
   }
 
