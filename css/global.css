@@ -23,23 +23,24 @@
 
 @font-face {
     font-family:  "LIGHT";
-    src: url('../fonts/IBMPlexSansArabic-Light.ttf');
+    /* src: url('../fonts/IBMPlexSansArabic-Light.ttf'); */
+    src: url('../fonts/GE_SS_Two_Light.otf');
 }
 
-@font-face {
+/* @font-face {
     font-family:  "REGULAR";
     src: url('../fonts/IBMPlexSansArabic-Regular.ttf');
-}
+} */
 
 @font-face {
     font-family:  "MEDIUM";
-    src: url('../fonts/IBMPlexSansArabic-Medium.ttf');
+    src: url('../fonts/GE_SS_Two_Medium.otf');
 }
 
 
 @font-face {
     font-family:  "BOLD";
-    src: url('../fonts/IBMPlexSansArabic-Bold.ttf');
+    src: url('../fonts/GE_SS_Two_Bold.otf');
 }
 
 @font-face {
@@ -54,7 +55,7 @@
 }
 
 body {
-  font-family: "REGULAR", serif;
+  font-family: "LIGHT", serif;
   font-weight: 400;
   font-style: normal;
 }

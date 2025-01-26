@@ -1,3 +1,7 @@
+header{
+  background-color: #E9EEFC;
+}
+
 .top-header {
   background-color: #5c3fcf;
   padding: 20px 0;
@@ -224,6 +228,7 @@
   gap: 10px;
   position: relative;
   cursor: pointer;
+  height: 40px;
 }
 
 .header-links .links-container .header-link p {
@@ -262,6 +267,7 @@
   color: var(--black);
   margin-top: 10px;
   display: block;
+  font-family: "MEDIUM";
 }
 
 .show-menu {
@@ -286,7 +292,7 @@
 .ctm-menu-custom {
   position: absolute;
   background-color: #fff;
-  top: 20px;
+  top: 40px;
   box-shadow: 0 0 5px #dedede;
   min-width: 150px;
   z-index: 1;
@@ -322,7 +328,7 @@
 }
 
 
-.responsive-menu{
+.responsive-menu {
   position: fixed;
   top: 0;
   right: -100%;
@@ -331,6 +337,10 @@
   bottom: 0;
   width: 300px;
   transition: 0.4s;
+  z-index: 10;
+  background-image: url('../images/hero\ section.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .responsive-menu.show{
@@ -355,6 +365,7 @@
 
 .responsive-menu .search-links a p {
   font-size: 12px;
+  color: #fff;
 }
 
 .responsive-menu .search-links {
@@ -366,9 +377,14 @@
 }
 
 .responsive-menu .search-links svg {
+  color: #fff;
   transition: 0.4s;
   font-size: 17px;
   width: 17px;
+}
+
+.responsive-menu .search-links svg path{
+  stroke: #fff;
 }
 
 .responsive-menu .links-container{
@@ -381,16 +397,14 @@
    align-items: center;
    justify-content: center;
    gap: 10px;
-   margin-bottom: 10px;
    color: var(--black);
    position: relative;
    transition: 0.4s;
    cursor: pointer;
+   height: 40px;
+   color: #fff;
 }
 
-.responsive-menu .links-container .header-link:hover{
-   color: var(--primary1);
-}
 
 .responsive-menu .links-container .header-link:hover .ctm-menu-custom{
     display: block;
@@ -409,8 +423,13 @@
   background-color: #d1d1d178;
   transition: 0.4s;
   left: -100%;
+  z-index: 1;
 }
 
 .overlay.show{
    left: 0;
+}
+
+.responsive-menu .search-input input{
+  background-color: #fff;
 }

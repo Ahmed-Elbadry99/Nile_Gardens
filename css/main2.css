@@ -176,6 +176,13 @@ p{
     position: relative;
     z-index: 1;
 }
+
+.icc-img{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
 .offer-banner .row{
     display: flex;
     justify-content: space-between;
@@ -395,9 +402,15 @@ p{
     gap: 30px;
     margin: 10px;
     height: 100%;
-    border: 1px dashed var(--primary3);
     padding: 15px;
     border-radius: 12px;
+    border: 1px solid #F1F1F1;
+    transition: 0.4s;
+}
+
+.our-customers .item:hover {
+    border: 1px dashed var(--primary3);
+     box-shadow: 0 0 15px  #E9EEFC;
 }
 
 .customer-item {
@@ -1999,6 +2012,11 @@ footer .row{
     margin-bottom: 24px;
   }
 
+  .addresses-header h4{
+    color:var(--primary1);
+    font-family: 'MEDIUM';
+  }
+
   .addresses-header a{
     color: var(--primary1);
     font-family: 'MEDIUM';
@@ -2059,6 +2077,7 @@ footer .row{
     color: var(--primary1);
     font-family: 'MEDIUM';
     font-size: 16px;
+    
   }
 
   .action-button .form-switch .form-check-input{
@@ -2066,7 +2085,7 @@ footer .row{
     width: 51px;
     height: 32px;
     background-color: var(--gray);
-    
+    margin-top:0;
   }
 
 
@@ -2285,3 +2304,12 @@ footer .row{
     border: 1px solid var(--primary1);
 }
 
+.about-content span {
+    color: var(--black);
+    font-family: "BOLD";
+}
+
+.customer-bg img{
+    width: 100%;
+    height: 100%;
+}

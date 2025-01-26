@@ -5,37 +5,730 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NILE GARDENS</title>
 
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <!-- Font awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-    <!-- Font awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-    <!--bootstrap  -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <!-- OWL Carousel -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+        <!-- Animate CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
-     
-    <!-- Styles -->
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/global.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/main2.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="css/responsive2.css">
-    <link rel="stylesheet" href="css/ar.css">
+        <!-- OWL Carousel -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/global.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/main2.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        <link rel="stylesheet" href="css/responsive2.css">    
+        <link rel="stylesheet" href="css/ar.css">
 </head>
 <body>
-     <main>
-            
-        <section class="about-us">
+
+
+     <main   id="main-content" >
+        
+             <!--  Header  -->
+             <header>
+                  <div class="top-header">
+                         <div class="main-container">
+                                <div class="fast-delever">
+                                    <img src="images/delever.png" alt="">
+                                    <p> توصيل مجاني للطلبات فوق 250 ريال داخل الرياض </p>
+                                </div>
+    
+                                <div class="change-lang">
+                                    <i class="fa-solid fa-sort-down"></i>
+                                    <img src="images/ar.png" alt="">
+                                    <p> عربي </p>
+
+                                    <div class="change-lang-menu">
+                                          <a href="/"> عربي </a>
+                                          <a href="/"> انجليزي </a>
+                                    </div>
+                                </div>
+                         </div>
+                  </div>
+
+                  <div class="serch-section main-container">
+                       <a href="/" class="logo">
+                           <img src="images/logo.png" alt="">
+                       </a>
+
+                       <form class="search-input">
+                            <input type="text" placeholder="ابحث عن.....">
+                            <button type="submit" class="icon">
+                                    <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                         <path d="M14.7401 26.75C21.2985 26.75 26.6151 21.4334 26.6151 14.875C26.6151 8.31662 21.2985 3 14.7401 3C8.18173 3 2.86511 8.31662 2.86511 14.875C2.86511 21.4334 8.18173 26.75 14.7401 26.75Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                         <path d="M27.8651 28L25.3651 25.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                            </button>
+                       </form>
+
+                       <div class="search-links">
+                            <button id="enableAudio">شغل الاصوات</button>
+                            <a href="login.html">
+                                    <svg width="18" height="24" viewBox="0 0 18 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M9.17269 11.0788C9.0647 11.068 8.93511 11.068 8.81631 11.0788C6.24612 10.9925 4.20508 8.88662 4.20508 6.29482C4.20508 3.64903 6.34331 1.5 8.9999 1.5C11.6457 1.5 13.7947 3.64903 13.7947 6.29482C13.7839 8.88662 11.7429 10.9925 9.17269 11.0788Z" stroke="#333333" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+                                       <path d="M3.59506 14.7208C0.981661 16.4703 0.981661 19.3213 3.59506 21.0599C6.56482 23.047 11.4352 23.047 14.405 21.0599C17.0184 19.3105 17.0184 16.4595 14.405 14.7208C11.446 12.7446 6.57562 12.7446 3.59506 14.7208Z" stroke="#333333" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                  <p> تسجيل الدخول </p>
+                            </a>
+                            <a href="favourite.html">
+                                <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12.7549 20.81C12.4149 20.93 11.8549 20.93 11.5149 20.81C8.61489 19.82 2.13489 15.69 2.13489 8.68998C2.13489 5.59998 4.62489 3.09998 7.69489 3.09998C9.51489 3.09998 11.1249 3.97998 12.1349 5.33998C13.1449 3.97998 14.7649 3.09998 16.5749 3.09998C19.6449 3.09998 22.1349 5.59998 22.1349 8.68998C22.1349 15.69 15.6549 19.82 12.7549 20.81Z" stroke="#333333" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    
+                                  <p> المفضلة </p>
+                            </a>
+                            <a href="cart.html">
+                                <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2.63489 2H4.37489C5.45489 2 6.30489 2.93 6.21489 4L5.38489 13.96C5.24489 15.59 6.53488 16.99 8.17488 16.99H18.8249C20.2649 16.99 21.5249 15.81 21.6349 14.38L22.1749 6.88C22.2949 5.22 21.0349 3.87 19.3649 3.87H6.4549" stroke="#333333" stroke-width="1.35" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M16.885 22C17.5754 22 18.135 21.4404 18.135 20.75C18.135 20.0596 17.5754 19.5 16.885 19.5C16.1947 19.5 15.635 20.0596 15.635 20.75C15.635 21.4404 16.1947 22 16.885 22Z" stroke="#333333" stroke-width="1.35" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M8.88513 22C9.57549 22 10.1351 21.4404 10.1351 20.75C10.1351 20.0596 9.57549 19.5 8.88513 19.5C8.19478 19.5 7.63513 20.0596 7.63513 20.75C7.63513 21.4404 8.19478 22 8.88513 22Z" stroke="#333333" stroke-width="1.35" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M9.63501 8H21.635" stroke="#333333" stroke-width="1.35" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    
+                                  <p>  السلة </p>
+                            </a>
+                       </div>
+
+                       <div class="show-menu">
+                           <i class="fa-solid fa-bars"></i>
+                       </div>
+                  </div>
+
+                  <div class="header-links">
+                      <div class="main-container">
+                        <div class="links-container">
+                            <a href="/" class="header-link"> <p> الصفحة الرئيسية  </p> </a>
+                            <div class="header-link">
+                                <p> جميع الاقسام </p>
+                                <i class="fa-solid fa-chevron-down"></i>
+
+                                <div class="ctm-menu-custom">
+                                    <a href="/"> الرئيسية </a>
+                                    <a href="/"> الرئيسية </a>
+                                    <a href="/"> الرئيسية </a>
+                                    <a href="/"> الرئيسية </a>
+                                </div>
+                            </div>
+                            <div class="header-link">
+                                <p> الكلاب </p>
+                                <i class="fa-solid fa-chevron-down"></i>
+
+                                  <div class="ctm-menu-custom">
+                                    <a href="/"> الرئيسية </a>
+                                    <a href="/"> الرئيسية </a>
+                                    <a href="/"> الرئيسية </a>
+                                    <a href="/"> الرئيسية </a>
+                                </div>
+                            </div>
+                            <div class="header-link">
+                                <p> القطط </p>
+                                <i class="fa-solid fa-chevron-down"></i>
+
+                                  <div class="ctm-menu-custom">
+                                    <a href="/"> الرئيسية </a>
+                                    <a href="/"> الرئيسية </a>
+                                    <a href="/"> الرئيسية </a>
+                                    <a href="/"> الرئيسية </a>
+                                </div>
+                            </div>
+                            <div class="header-link">
+                                <p> طيور وحيوانات </p>
+                                <i class="fa-solid fa-chevron-down"></i>
+
+                                  <div class="ctm-menu-custom">
+                                    <a href="/"> الرئيسية </a>
+                                    <a href="/"> الرئيسية </a>
+                                    <a href="/"> الرئيسية </a>
+                                    <a href="/"> الرئيسية </a>
+                                </div>
+                            </div>
+                            <div class="header-link">
+                                <p> نباتات الزينة </p>
+                                <i class="fa-solid fa-chevron-down"></i>
+
+                                  <div class="ctm-menu-custom">
+                                    <a href="/"> الرئيسية </a>
+                                    <a href="/"> الرئيسية </a>
+                                    <a href="/"> الرئيسية </a>
+                                    <a href="/"> الرئيسية </a>
+                                </div>
+                            </div>
+                            <a href="/" class="header-link">
+                                <p> من نحن </p>
+                            </a>
+                            <a href="/" class="header-link">
+                                <p> تواصل معنا </p>
+                            </a>
+                        </div>
+                        <div class="header-contact">
+                              <div class="icon"> <img src="images/contact.png" alt=""> </div>
+                              <div class="txt">
+                                  <p> تواصل معنا </p>
+                                  <a href="/"> +96658765867586 </a>
+                              </div>
+                        </div>
+                      </div>
+                  </div>
+             </header>
+
+     </main>
+
+
+     <!-- Hero Section -->
+      <section class="hero-section"  >
+          <div class="main-container" style="background-image: url('images/hero\ section.png');" >
+               <div class="owl-carousel carousel-hero">
+                    <div class="item">
+                        <div class="crousel-card-dog">
+                            <div class="txt">
+                                  <h2> كـل مـا يحتاجـه حيوانـك الأليـف فـي   <span> مكان واحد  !</span>   </h2>
+      
+                                  <p> أفضل المنتجات، العروض المميزة، وخدمات استثنائية لرعاية أصدقائك الأوفياء. لأنهم يستحقون الأفضل دائمًا </p>
+      
+                                  <a class="shopping-now" href="/"> تسوّق الآن </a>
+                            </div>
+                            <div class="imgs">
+                                 <div style="background-image: url('images/bg-yellow.png');" class="img-1"> <img src="images/dog.png" alt=""> </div>
+                                 <div style="background-image: url('images/bg-white.png');" class="img-2"> <img src="images/dog-hand.png" alt=""> </div>
+                                 <div class="haddi"> <img src="images/haddi 1.png" alt=""> </div>
+                                 <div style="background-image: url('images/discount.png');" class="discount">
+                                    <h2> خصم <br> خاص </h2>
+                                    <p>  لفترة محدودة </p>
+                                 </div>
+                                 <div class="discount-precentge"> 60%- </div>
+                            </div>
+      
+                            <div class="home-img">
+                                 <img src="images/home.png" alt="">
+                            </div>
+      
+                            <div class="dog-foot">
+                                  <img src="images/dog-foot.png" alt="">
+                            </div>
+                     </div>
+                    </div>
+                    <div class="item">
+                        <div class="crousel-card-dog">
+                            <div class="txt">
+                                  <h2> كـل مـا يحتاجـه حيوانـك الأليـف فـي   <span> مكان واحد  !</span>   </h2>
+      
+                                  <p> أفضل المنتجات، العروض المميزة، وخدمات استثنائية لرعاية أصدقائك الأوفياء. لأنهم يستحقون الأفضل دائمًا </p>
+      
+                                  <a href="/"> تسوّق الآن </a>
+                            </div>
+                            <div class="imgs">
+                                 <div style="background-image: url('images/bg-yellow.png');" class="img-1"> <img src="images/dog.png" alt=""> </div>
+                                 <div style="background-image: url('images/bg-white.png');" class="img-2"> <img src="images/dog-hand.png" alt=""> </div>
+                                 <div class="haddi"> <img src="images/haddi 1.png" alt=""> </div>
+                                 <div style="background-image: url('images/discount.png');" class="discount">
+                                    <h2> خصم <br> خاص </h2>
+                                    <p>  لفترة محدودة </p>
+                                 </div>
+                                 <div class="discount-precentge"> 60%- </div>
+                            </div>
+      
+                            <div class="home-img">
+                                 <img src="images/home.png" alt="">
+                            </div>
+      
+                            <div class="dog-foot">
+                                  <img src="images/dog-foot.png" alt="">
+                            </div>
+                     </div>
+                    </div>
+               </div>
+          </div>
+      </section>
+
+
+      <section>
+          <div class="main-container">
+               <div class="discounts-cards">
+                    <div class="card" style="background-image: url('images/offer\ 1.png');" >
+                                <div class="img"> <img src="images/animal-feed-4 1.png" alt=""> </div>
+                                <div class="txt">
+                                      <div class="desc"> استمتع بخصم 30% </div>
+                                      <p> لا تفوّت الفرصة لتدلّل صديقك الوفي بأفضل المنتجات بأقل الأسعار. العرض لفترة محدودة، تسوّق الآن </p>
+                                      <a class="shopping-now" href="/"> تسوّق الآن </a>
+                                </div>
+                    </div>
+                    <div class="card" style="background-image: url('images/offer\ 2.png');" >
+                                <div class="img"> <img src="images/animal-feed-4 1.png" alt=""> </div>
+                                <div class="txt">
+                                      <div class="desc"> استمتع بخصم 30% </div>
+                                      <p> لا تفوّت الفرصة لتدلّل صديقك الوفي بأفضل المنتجات بأقل الأسعار. العرض لفترة محدودة، تسوّق الآن </p>
+                                      <a class="shopping-now" href="/"> تسوّق الآن </a>
+                                </div>
+                    </div>
+               </div>
+          </div>
+      </section>
+
+      <!-- Department classifications -->
+       <section class="department_classifications" >
+            <div class="main-container">
+                    <div class="department_classifications_head">
+                           <div class="top-title"> تصنيفات الاقسام </div>
+                           <p> نوفر كل شيء من الطعام والعناية إلى الترفيه والمستلزمات اليومية </p>
+                    </div>
+
+                    <div class="owl-carousel department_classifications_slider">
+                          <div class="item">
+                                <a href="/" class="card">
+                                       <div class="img"> <img src="images/cats.png" alt=""> </div>
+                                       <div class="txt">
+                                           <div class="name"> قطط </div>
+                                           <p> 2000 منتج </p>
+                                       </div>
+                                       <div class="icon"> <i class="fa-solid fa-arrow-left"></i> </div>
+                                </a>
+                          </div>
+                          <div class="item">
+                                <a href="/" class="card">
+                                       <div class="img"> <img src="images/dogs.png" alt=""> </div>
+                                       <div class="txt">
+                                           <div class="name"> قطط </div>
+                                           <p> 2000 منتج </p>
+                                       </div>
+                                       <div class="icon"> <i class="fa-solid fa-arrow-left"></i> </div>
+                                </a>
+                          </div>
+                          <div class="item">
+                                <a href="/" class="card">
+                                       <div class="img"> <img src="images/birdes.png" alt=""> </div>
+                                       <div class="txt">
+                                           <div class="name"> قطط </div>
+                                           <p> 2000 منتج </p>
+                                       </div>
+                                       <div class="icon"> <i class="fa-solid fa-arrow-left"></i> </div>
+                                </a>
+                          </div>
+                          <div class="item">
+                                <a href="/" class="card">
+                                       <div class="img"> <img src="images/plantes.png" alt=""> </div>
+                                       <div class="txt">
+                                           <div class="name"> قطط </div>
+                                           <p> 2000 منتج </p>
+                                       </div>
+                                       <div class="icon"> <i class="fa-solid fa-arrow-left"></i> </div>
+                                </a>
+                          </div>
+                    </div>
+            </div>
+       </section>
+
+
+       <!-- most sales products -->
+        <section class="most-sales" style="background-image: url('images/bg-section.png');" >
+              <div class="main-container">
+                        <div class="department_classifications_head">
+                            <div class="top-title"> أكثر المنتجات مبيعًا </div>
+                            <p> تصفح مجموعة مختارة من المنتجات الأكثر طلبًا من عملائنا </p>
+                        </div>
+
+                        <div class="products-container">
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                  <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true"> كل المنتجات </button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                  <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false"> الكلاب </button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                  <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false"> القطط </button>
+                                </li>
+                              </ul>
+                              <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                                     <div class="products-container-cards">
+                                        <!--  -->
+                                          <div class="new product-index">
+                                                 <div class="img"> <img src="images/p-1.png" alt=""> </div>
+                                                 <div class="txt">
+                                                      <div class="desc"> بورينا أوف ذا لاتا هيلز </div>
+                                                      <div class="price">
+                                                          <p> 20 ر.س </p>
+                                                          <span> 30 ر.س </span>
+                                                      </div>
+                                                      <div class="rate">
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <span>
+                                                              (50)
+                                                        </span>
+                                                      </div>
+                                                      <a href="/" class="icon">
+                                                            <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M2.63489 2H4.37489C5.45489 2 6.30489 2.93 6.21489 4L5.38489 13.96C5.24489 15.59 6.53488 16.99 8.17488 16.99H18.8249C20.2649 16.99 21.5249 15.81 21.6349 14.38L22.1749 6.88C22.2949 5.22 21.0349 3.87 19.3649 3.87H6.4549" stroke="#333333" stroke-width="1.35" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            <path d="M16.885 22C17.5754 22 18.135 21.4404 18.135 20.75C18.135 20.0596 17.5754 19.5 16.885 19.5C16.1947 19.5 15.635 20.0596 15.635 20.75C15.635 21.4404 16.1947 22 16.885 22Z" stroke="#333333" stroke-width="1.35" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            <path d="M8.88513 22C9.57549 22 10.1351 21.4404 10.1351 20.75C10.1351 20.0596 9.57549 19.5 8.88513 19.5C8.19478 19.5 7.63513 20.0596 7.63513 20.75C7.63513 21.4404 8.19478 22 8.88513 22Z" stroke="#333333" stroke-width="1.35" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            <path d="M9.63501 8H21.635" stroke="#333333" stroke-width="1.35" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                      </a>
+                                                 </div>
+                                          </div>
+                                          <!--  -->
+                                        <!--  -->
+                                          <div class="   new product-index">
+                                                 <div class="img"> <img src="images/p-4.png" alt=""> </div>
+                                                 <div class="txt">
+                                                      <div class="desc"> بورينا أوف ذا لاتا هيلز </div>
+                                                      <div class="price">
+                                                          <p> 20 ر.س </p>
+                                                          <span> 30 ر.س </span>
+                                                      </div>
+                                                      <div class="rate">
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <span>
+                                                              (50)
+                                                        </span>
+                                                      </div>
+                                                      <a href="/" class="icon">
+                                                            <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M2.63489 2H4.37489C5.45489 2 6.30489 2.93 6.21489 4L5.38489 13.96C5.24489 15.59 6.53488 16.99 8.17488 16.99H18.8249C20.2649 16.99 21.5249 15.81 21.6349 14.38L22.1749 6.88C22.2949 5.22 21.0349 3.87 19.3649 3.87H6.4549" stroke="#333333" stroke-width="1.35" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            <path d="M16.885 22C17.5754 22 18.135 21.4404 18.135 20.75C18.135 20.0596 17.5754 19.5 16.885 19.5C16.1947 19.5 15.635 20.0596 15.635 20.75C15.635 21.4404 16.1947 22 16.885 22Z" stroke="#333333" stroke-width="1.35" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            <path d="M8.88513 22C9.57549 22 10.1351 21.4404 10.1351 20.75C10.1351 20.0596 9.57549 19.5 8.88513 19.5C8.19478 19.5 7.63513 20.0596 7.63513 20.75C7.63513 21.4404 8.19478 22 8.88513 22Z" stroke="#333333" stroke-width="1.35" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            <path d="M9.63501 8H21.635" stroke="#333333" stroke-width="1.35" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                      </a>
+                                                 </div>
+                                          </div>
+                                          <!--  -->
+                                        <!--  -->
+                                          <div class="   new product-index">
+                                                 <div class="img"> <img src="images/p-2.png" alt=""> </div>
+                                                 <div class="txt">
+                                                      <div class="desc"> بورينا أوف ذا لاتا هيلز </div>
+                                                      <div class="price">
+                                                          <p> 20 ر.س </p>
+                                                          <span> 30 ر.س </span>
+                                                      </div>
+                                                      <div class="rate">
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <span>
+                                                              (50)
+                                                        </span>
+                                                      </div>
+                                                      <a href="/" class="icon">
+                                                            <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M2.63489 2H4.37489C5.45489 2 6.30489 2.93 6.21489 4L5.38489 13.96C5.24489 15.59 6.53488 16.99 8.17488 16.99H18.8249C20.2649 16.99 21.5249 15.81 21.6349 14.38L22.1749 6.88C22.2949 5.22 21.0349 3.87 19.3649 3.87H6.4549" stroke="#333333" stroke-width="1.35" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            <path d="M16.885 22C17.5754 22 18.135 21.4404 18.135 20.75C18.135 20.0596 17.5754 19.5 16.885 19.5C16.1947 19.5 15.635 20.0596 15.635 20.75C15.635 21.4404 16.1947 22 16.885 22Z" stroke="#333333" stroke-width="1.35" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            <path d="M8.88513 22C9.57549 22 10.1351 21.4404 10.1351 20.75C10.1351 20.0596 9.57549 19.5 8.88513 19.5C8.19478 19.5 7.63513 20.0596 7.63513 20.75C7.63513 21.4404 8.19478 22 8.88513 22Z" stroke="#333333" stroke-width="1.35" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            <path d="M9.63501 8H21.635" stroke="#333333" stroke-width="1.35" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                      </a>
+                                                 </div>
+                                          </div>
+                                          <!--  -->
+                                        <!--  -->
+                                          <div class="   new product-index">
+                                                 <div class="img"> <img src="images/p-3.png" alt=""> </div>
+                                                 <div class="txt">
+                                                      <div class="desc"> بورينا أوف ذا لاتا هيلز </div>
+                                                      <div class="price">
+                                                          <p> 20 ر.س </p>
+                                                          <span> 30 ر.س </span>
+                                                      </div>
+                                                      <div class="rate">
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <span>
+                                                              (50)
+                                                        </span>
+                                                      </div>
+                                                      <a href="/" class="icon">
+                                                            <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M2.63489 2H4.37489C5.45489 2 6.30489 2.93 6.21489 4L5.38489 13.96C5.24489 15.59 6.53488 16.99 8.17488 16.99H18.8249C20.2649 16.99 21.5249 15.81 21.6349 14.38L22.1749 6.88C22.2949 5.22 21.0349 3.87 19.3649 3.87H6.4549" stroke="#333333" stroke-width="1.35" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            <path d="M16.885 22C17.5754 22 18.135 21.4404 18.135 20.75C18.135 20.0596 17.5754 19.5 16.885 19.5C16.1947 19.5 15.635 20.0596 15.635 20.75C15.635 21.4404 16.1947 22 16.885 22Z" stroke="#333333" stroke-width="1.35" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            <path d="M8.88513 22C9.57549 22 10.1351 21.4404 10.1351 20.75C10.1351 20.0596 9.57549 19.5 8.88513 19.5C8.19478 19.5 7.63513 20.0596 7.63513 20.75C7.63513 21.4404 8.19478 22 8.88513 22Z" stroke="#333333" stroke-width="1.35" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            <path d="M9.63501 8H21.635" stroke="#333333" stroke-width="1.35" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                      </a>
+                                                 </div>
+                                          </div>
+                                          <!--  -->
+                                     </div>
+                                </div>
+                                <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                                    <div class="products-container-cards">
+                                        <!--  -->
+                                          <div class="new product-index">
+                                                 <div class="img"> <img src="images/p-1.png" alt=""> </div>
+                                                 <div class="txt">
+                                                      <div class="desc"> بورينا أوف ذا لاتا هيلز </div>
+                                                      <div class="price">
+                                                          <p> 20 ر.س </p>
+                                                          <span> 30 ر.س </span>
+                                                      </div>
+                                                      <div class="rate">
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <span>
+                                                              (50)
+                                                        </span>
+                                                      </div>
+                                                      <a href="/" class="icon">
+                                                            <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M2.63489 2H4.37489C5.45489 2 6.30489 2.93 6.21489 4L5.38489 13.96C5.24489 15.59 6.53488 16.99 8.17488 16.99H18.8249C20.2649 16.99 21.5249 15.81 21.6349 14.38L22.1749 6.88C22.2949 5.22 21.0349 3.87 19.3649 3.87H6.4549" stroke="#333333" stroke-width="1.35" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            <path d="M16.885 22C17.5754 22 18.135 21.4404 18.135 20.75C18.135 20.0596 17.5754 19.5 16.885 19.5C16.1947 19.5 15.635 20.0596 15.635 20.75C15.635 21.4404 16.1947 22 16.885 22Z" stroke="#333333" stroke-width="1.35" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            <path d="M8.88513 22C9.57549 22 10.1351 21.4404 10.1351 20.75C10.1351 20.0596 9.57549 19.5 8.88513 19.5C8.19478 19.5 7.63513 20.0596 7.63513 20.75C7.63513 21.4404 8.19478 22 8.88513 22Z" stroke="#333333" stroke-width="1.35" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            <path d="M9.63501 8H21.635" stroke="#333333" stroke-width="1.35" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                      </a>
+                                                 </div>
+                                          </div>
+                                          <!--  -->
+                                        <!--  -->
+                                          <div class="   new product-index">
+                                                 <div class="img"> <img src="images/p-4.png" alt=""> </div>
+                                                 <div class="txt">
+                                                      <div class="desc"> بورينا أوف ذا لاتا هيلز </div>
+                                                      <div class="price">
+                                                          <p> 20 ر.س </p>
+                                                          <span> 30 ر.س </span>
+                                                      </div>
+                                                      <div class="rate">
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <span>
+                                                              (50)
+                                                        </span>
+                                                      </div>
+                                                      <a href="/" class="icon">
+                                                            <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M2.63489 2H4.37489C5.45489 2 6.30489 2.93 6.21489 4L5.38489 13.96C5.24489 15.59 6.53488 16.99 8.17488 16.99H18.8249C20.2649 16.99 21.5249 15.81 21.6349 14.38L22.1749 6.88C22.2949 5.22 21.0349 3.87 19.3649 3.87H6.4549" stroke="#333333" stroke-width="1.35" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            <path d="M16.885 22C17.5754 22 18.135 21.4404 18.135 20.75C18.135 20.0596 17.5754 19.5 16.885 19.5C16.1947 19.5 15.635 20.0596 15.635 20.75C15.635 21.4404 16.1947 22 16.885 22Z" stroke="#333333" stroke-width="1.35" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            <path d="M8.88513 22C9.57549 22 10.1351 21.4404 10.1351 20.75C10.1351 20.0596 9.57549 19.5 8.88513 19.5C8.19478 19.5 7.63513 20.0596 7.63513 20.75C7.63513 21.4404 8.19478 22 8.88513 22Z" stroke="#333333" stroke-width="1.35" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            <path d="M9.63501 8H21.635" stroke="#333333" stroke-width="1.35" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                      </a>
+                                                 </div>
+                                          </div>
+                                          <!--  -->
+                                        <!--  -->
+                                          <div class="   new product-index">
+                                                 <div class="img"> <img src="images/p-2.png" alt=""> </div>
+                                                 <div class="txt">
+                                                      <div class="desc"> بورينا أوف ذا لاتا هيلز </div>
+                                                      <div class="price">
+                                                          <p> 20 ر.س </p>
+                                                          <span> 30 ر.س </span>
+                                                      </div>
+                                                      <div class="rate">
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <span>
+                                                              (50)
+                                                        </span>
+                                                      </div>
+                                                      <a href="/" class="icon">
+                                                            <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M2.63489 2H4.37489C5.45489 2 6.30489 2.93 6.21489 4L5.38489 13.96C5.24489 15.59 6.53488 16.99 8.17488 16.99H18.8249C20.2649 16.99 21.5249 15.81 21.6349 14.38L22.1749 6.88C22.2949 5.22 21.0349 3.87 19.3649 3.87H6.4549" stroke="#333333" stroke-width="1.35" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            <path d="M16.885 22C17.5754 22 18.135 21.4404 18.135 20.75C18.135 20.0596 17.5754 19.5 16.885 19.5C16.1947 19.5 15.635 20.0596 15.635 20.75C15.635 21.4404 16.1947 22 16.885 22Z" stroke="#333333" stroke-width="1.35" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            <path d="M8.88513 22C9.57549 22 10.1351 21.4404 10.1351 20.75C10.1351 20.0596 9.57549 19.5 8.88513 19.5C8.19478 19.5 7.63513 20.0596 7.63513 20.75C7.63513 21.4404 8.19478 22 8.88513 22Z" stroke="#333333" stroke-width="1.35" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            <path d="M9.63501 8H21.635" stroke="#333333" stroke-width="1.35" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                      </a>
+                                                 </div>
+                                          </div>
+                                          <!--  -->
+                                        <!--  -->
+                                          <div class=" product-index">
+                                                 <div class="img"> <img src="images/p-3.png" alt=""> </div>
+                                                 <div class="txt">
+                                                      <div class="desc"> بورينا أوف ذا لاتا هيلز </div>
+                                                      <div class="price">
+                                                          <p> 20 ر.س </p>
+                                                          <span> 30 ر.س </span>
+                                                      </div>
+                                                      <div class="rate">
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <span>
+                                                              (50)
+                                                        </span>
+                                                      </div>
+                                                      <a href="/" class="icon">
+                                                            <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M2.63489 2H4.37489C5.45489 2 6.30489 2.93 6.21489 4L5.38489 13.96C5.24489 15.59 6.53488 16.99 8.17488 16.99H18.8249C20.2649 16.99 21.5249 15.81 21.6349 14.38L22.1749 6.88C22.2949 5.22 21.0349 3.87 19.3649 3.87H6.4549" stroke="#333333" stroke-width="1.35" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            <path d="M16.885 22C17.5754 22 18.135 21.4404 18.135 20.75C18.135 20.0596 17.5754 19.5 16.885 19.5C16.1947 19.5 15.635 20.0596 15.635 20.75C15.635 21.4404 16.1947 22 16.885 22Z" stroke="#333333" stroke-width="1.35" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            <path d="M8.88513 22C9.57549 22 10.1351 21.4404 10.1351 20.75C10.1351 20.0596 9.57549 19.5 8.88513 19.5C8.19478 19.5 7.63513 20.0596 7.63513 20.75C7.63513 21.4404 8.19478 22 8.88513 22Z" stroke="#333333" stroke-width="1.35" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            <path d="M9.63501 8H21.635" stroke="#333333" stroke-width="1.35" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                      </a>
+                                                 </div>
+                                          </div>
+                                          <!--  -->
+                                     </div>
+                                </div>
+                                <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+                                    <div class="products-container-cards">
+                                        <!--  -->
+                                          <div class="new product-index">
+                                                 <div class="img"> <img src="images/p-1.png" alt=""> </div>
+                                                 <div class="txt">
+                                                      <div class="desc"> بورينا أوف ذا لاتا هيلز </div>
+                                                      <div class="price">
+                                                          <p> 20 ر.س </p>
+                                                          <span> 30 ر.س </span>
+                                                      </div>
+                                                      <div class="rate">
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <span>
+                                                              (50)
+                                                        </span>
+                                                      </div>
+                                                      <a href="/" class="icon">
+                                                            <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M2.63489 2H4.37489C5.45489 2 6.30489 2.93 6.21489 4L5.38489 13.96C5.24489 15.59 6.53488 16.99 8.17488 16.99H18.8249C20.2649 16.99 21.5249 15.81 21.6349 14.38L22.1749 6.88C22.2949 5.22 21.0349 3.87 19.3649 3.87H6.4549" stroke="#333333" stroke-width="1.35" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            <path d="M16.885 22C17.5754 22 18.135 21.4404 18.135 20.75C18.135 20.0596 17.5754 19.5 16.885 19.5C16.1947 19.5 15.635 20.0596 15.635 20.75C15.635 21.4404 16.1947 22 16.885 22Z" stroke="#333333" stroke-width="1.35" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            <path d="M8.88513 22C9.57549 22 10.1351 21.4404 10.1351 20.75C10.1351 20.0596 9.57549 19.5 8.88513 19.5C8.19478 19.5 7.63513 20.0596 7.63513 20.75C7.63513 21.4404 8.19478 22 8.88513 22Z" stroke="#333333" stroke-width="1.35" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            <path d="M9.63501 8H21.635" stroke="#333333" stroke-width="1.35" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                      </a>
+                                                 </div>
+                                          </div>
+                                          <!--  -->
+                                        <!--  -->
+                                          <div class="   new product-index">
+                                                 <div class="img"> <img src="images/p-4.png" alt=""> </div>
+                                                 <div class="txt">
+                                                      <div class="desc"> بورينا أوف ذا لاتا هيلز </div>
+                                                      <div class="price">
+                                                          <p> 20 ر.س </p>
+                                                          <span> 30 ر.س </span>
+                                                      </div>
+                                                      <div class="rate">
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <span>
+                                                              (50)
+                                                        </span>
+                                                      </div>
+                                                      <a href="/" class="icon">
+                                                            <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M2.63489 2H4.37489C5.45489 2 6.30489 2.93 6.21489 4L5.38489 13.96C5.24489 15.59 6.53488 16.99 8.17488 16.99H18.8249C20.2649 16.99 21.5249 15.81 21.6349 14.38L22.1749 6.88C22.2949 5.22 21.0349 3.87 19.3649 3.87H6.4549" stroke="#333333" stroke-width="1.35" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            <path d="M16.885 22C17.5754 22 18.135 21.4404 18.135 20.75C18.135 20.0596 17.5754 19.5 16.885 19.5C16.1947 19.5 15.635 20.0596 15.635 20.75C15.635 21.4404 16.1947 22 16.885 22Z" stroke="#333333" stroke-width="1.35" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            <path d="M8.88513 22C9.57549 22 10.1351 21.4404 10.1351 20.75C10.1351 20.0596 9.57549 19.5 8.88513 19.5C8.19478 19.5 7.63513 20.0596 7.63513 20.75C7.63513 21.4404 8.19478 22 8.88513 22Z" stroke="#333333" stroke-width="1.35" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            <path d="M9.63501 8H21.635" stroke="#333333" stroke-width="1.35" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                      </a>
+                                                 </div>
+                                          </div>
+                                          <!--  -->
+                                        <!--  -->
+                                          <div class=" product-index">
+                                                 <div class="img"> <img src="images/p-2.png" alt=""> </div>
+                                                 <div class="txt">
+                                                      <div class="desc"> بورينا أوف ذا لاتا هيلز </div>
+                                                      <div class="price">
+                                                          <p> 20 ر.س </p>
+                                                          <span> 30 ر.س </span>
+                                                      </div>
+                                                      <div class="rate">
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <span>
+                                                              (50)
+                                                        </span>
+                                                      </div>
+                                                      <a href="/" class="icon">
+                                                            <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M2.63489 2H4.37489C5.45489 2 6.30489 2.93 6.21489 4L5.38489 13.96C5.24489 15.59 6.53488 16.99 8.17488 16.99H18.8249C20.2649 16.99 21.5249 15.81 21.6349 14.38L22.1749 6.88C22.2949 5.22 21.0349 3.87 19.3649 3.87H6.4549" stroke="#333333" stroke-width="1.35" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            <path d="M16.885 22C17.5754 22 18.135 21.4404 18.135 20.75C18.135 20.0596 17.5754 19.5 16.885 19.5C16.1947 19.5 15.635 20.0596 15.635 20.75C15.635 21.4404 16.1947 22 16.885 22Z" stroke="#333333" stroke-width="1.35" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            <path d="M8.88513 22C9.57549 22 10.1351 21.4404 10.1351 20.75C10.1351 20.0596 9.57549 19.5 8.88513 19.5C8.19478 19.5 7.63513 20.0596 7.63513 20.75C7.63513 21.4404 8.19478 22 8.88513 22Z" stroke="#333333" stroke-width="1.35" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            <path d="M9.63501 8H21.635" stroke="#333333" stroke-width="1.35" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                      </a>
+                                                 </div>
+                                          </div>
+                                          <!--  -->
+                                        <!--  -->
+                                          <div class="   new product-index">
+                                                 <div class="img"> <img src="images/p-3.png" alt=""> </div>
+                                                 <div class="txt">
+                                                      <div class="desc"> بورينا أوف ذا لاتا هيلز </div>
+                                                      <div class="price">
+                                                          <p> 20 ر.س </p>
+                                                          <span> 30 ر.س </span>
+                                                      </div>
+                                                      <div class="rate">
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <span>
+                                                              (50)
+                                                        </span>
+                                                      </div>
+                                                      <a href="/" class="icon">
+                                                            <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M2.63489 2H4.37489C5.45489 2 6.30489 2.93 6.21489 4L5.38489 13.96C5.24489 15.59 6.53488 16.99 8.17488 16.99H18.8249C20.2649 16.99 21.5249 15.81 21.6349 14.38L22.1749 6.88C22.2949 5.22 21.0349 3.87 19.3649 3.87H6.4549" stroke="#333333" stroke-width="1.35" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            <path d="M16.885 22C17.5754 22 18.135 21.4404 18.135 20.75C18.135 20.0596 17.5754 19.5 16.885 19.5C16.1947 19.5 15.635 20.0596 15.635 20.75C15.635 21.4404 16.1947 22 16.885 22Z" stroke="#333333" stroke-width="1.35" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            <path d="M8.88513 22C9.57549 22 10.1351 21.4404 10.1351 20.75C10.1351 20.0596 9.57549 19.5 8.88513 19.5C8.19478 19.5 7.63513 20.0596 7.63513 20.75C7.63513 21.4404 8.19478 22 8.88513 22Z" stroke="#333333" stroke-width="1.35" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            <path d="M9.63501 8H21.635" stroke="#333333" stroke-width="1.35" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                            </svg>
+                                                      </a>
+                                                 </div>
+                                          </div>
+                                          <!--  -->
+                                     </div>
+                                </div>
+                              </div>                           
+                        </div>
+              </div>
+        </section>
+
+
+      <!-- index 2 -->
+
+      <section class="about-us">
             <div class="main-container">
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
@@ -86,8 +779,10 @@
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="about-img">
-                        <div class="img-container">
+                        <div class="img-container dog-sound">
+                        
                             <img src="images/about.png" alt="">
+                            <audio preload="auto" id="dogSound" src="./1055629880_2049404851_2101504403.mp3" loop></audio>
                         </div>
                         <div class="lable1">
                             <div class="lablel-img">
@@ -126,6 +821,7 @@
         <!-- start  offer-banner -->
         <section class="offer-banner">
             <div class="main-container">
+                <div class="icc-img"><img src="images/breadcrumb_shape02 1.png" alt=""></div>
                 <div class="row">
                     <div class="col-lg-3 col-md-12 offer-item">
                         <div class="offer-price">
@@ -223,7 +919,11 @@
 
         <!-- our customers -->
         <section class="our-customers">
-            <img class="customer-bg" src="images/new-banner1.png" alt="">
+          <div class=" customer-bg image-dog">
+            <img class="" src="images/new-banner1.png" alt="">
+
+            <audio id="catSound" src="./dog-bark-179915.mp3" loop ></audio>
+          </div>
             <div class="main-container">
                 <div class="customers-header">
                     <h1>آراء عملائنا</h1>
@@ -330,8 +1030,9 @@
                         </form>
                     </div>
                 </div>
-                <div class="news-banner-img">
+                <div class="news-banner-img sound-cat">
                     <img src="images/news.png" alt="">
+                    <audio preload="auto" id="soundCat" src="./mixkit-cartoon-kitty-begging-meow-92.wav" loop></audio>
                 </div>
             </div>
         </section>
@@ -462,7 +1163,8 @@
                     <a class="all-blogs" href="#">المزيد من الاخبار</a>
                 </div>
             </div>
-            <img class="footer-top-img" src="images/footer-dog.png" alt="">
+            <img class="footer-top-img  sound-birds"  src="images/footer-dog.png" alt="">
+            <audio  preload="auto" id="birds" src="./cardinal-37075.mp3"></audio>
 
         </section>
 
@@ -472,7 +1174,7 @@
             <div class="main-container">
                 <div class="row">
                     <div class="col-lg-5 col-md-6 col-sm-12 footer-col">
-                        <div class="footer-logo">
+                        <div class="footer-logo ">
                             <img src="images/footer-logopng.png" alt="">
                         </div>
                         <div class="footer-text">
@@ -599,26 +1301,120 @@
             </div>
 
         </footer>
+      
 
 
+     <!-- rsponsive menu -->
+      <div class="overlay"></div>
+      <section class="responsive-menu" >
+                <form class="search-input">
+                    <input type="text" placeholder="ابحث عن.....">
+                    <button type="submit" class="icon">
+                            <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14.7401 26.75C21.2985 26.75 26.6151 21.4334 26.6151 14.875C26.6151 8.31662 21.2985 3 14.7401 3C8.18173 3 2.86511 8.31662 2.86511 14.875C2.86511 21.4334 8.18173 26.75 14.7401 26.75Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M27.8651 28L25.3651 25.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                    </button>
+               </form>
 
+               <div class="search-links">
+                <a href="login.html">
+                        <svg width="18" height="24" viewBox="0 0 18 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M9.17269 11.0788C9.0647 11.068 8.93511 11.068 8.81631 11.0788C6.24612 10.9925 4.20508 8.88662 4.20508 6.29482C4.20508 3.64903 6.34331 1.5 8.9999 1.5C11.6457 1.5 13.7947 3.64903 13.7947 6.29482C13.7839 8.88662 11.7429 10.9925 9.17269 11.0788Z" stroke="#333333" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+                           <path d="M3.59506 14.7208C0.981661 16.4703 0.981661 19.3213 3.59506 21.0599C6.56482 23.047 11.4352 23.047 14.405 21.0599C17.0184 19.3105 17.0184 16.4595 14.405 14.7208C11.446 12.7446 6.57562 12.7446 3.59506 14.7208Z" stroke="#333333" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                      <p> تسجيل الدخول </p>
+                </a>
+                <a href="favourite.html">
+                    <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12.7549 20.81C12.4149 20.93 11.8549 20.93 11.5149 20.81C8.61489 19.82 2.13489 15.69 2.13489 8.68998C2.13489 5.59998 4.62489 3.09998 7.69489 3.09998C9.51489 3.09998 11.1249 3.97998 12.1349 5.33998C13.1449 3.97998 14.7649 3.09998 16.5749 3.09998C19.6449 3.09998 22.1349 5.59998 22.1349 8.68998C22.1349 15.69 15.6549 19.82 12.7549 20.81Z" stroke="#333333" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
                         
+                      <p> المفضلة </p>
+                </a>
+                <a href="cart.html">
+                    <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2.63489 2H4.37489C5.45489 2 6.30489 2.93 6.21489 4L5.38489 13.96C5.24489 15.59 6.53488 16.99 8.17488 16.99H18.8249C20.2649 16.99 21.5249 15.81 21.6349 14.38L22.1749 6.88C22.2949 5.22 21.0349 3.87 19.3649 3.87H6.4549" stroke="#333333" stroke-width="1.35" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M16.885 22C17.5754 22 18.135 21.4404 18.135 20.75C18.135 20.0596 17.5754 19.5 16.885 19.5C16.1947 19.5 15.635 20.0596 15.635 20.75C15.635 21.4404 16.1947 22 16.885 22Z" stroke="#333333" stroke-width="1.35" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M8.88513 22C9.57549 22 10.1351 21.4404 10.1351 20.75C10.1351 20.0596 9.57549 19.5 8.88513 19.5C8.19478 19.5 7.63513 20.0596 7.63513 20.75C7.63513 21.4404 8.19478 22 8.88513 22Z" stroke="#333333" stroke-width="1.35" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M9.63501 8H21.635" stroke="#333333" stroke-width="1.35" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        
+                      <p>  السلة </p>
+                </a>
+           </div>
 
-                    
-                                
-                
+           <div class="links-container">
+            <a href="/" class="header-link"> <p> الصفحة الرئيسية  </p> </a>
+            <div class="header-link">
+                <p> جميع الاقسام </p>
+                <i class="fa-solid fa-chevron-down"></i>
 
+                <div class="ctm-menu-custom">
+                    <a href="/"> الرئيسية </a>
+                    <a href="/"> الرئيسية </a>
+                    <a href="/"> الرئيسية </a>
+                    <a href="/"> الرئيسية </a>
+                </div>
+            </div>
+            <div class="header-link">
+                <p> الكلاب </p>
+                <i class="fa-solid fa-chevron-down"></i>
 
+                  <div class="ctm-menu-custom">
+                    <a href="/"> الرئيسية </a>
+                    <a href="/"> الرئيسية </a>
+                    <a href="/"> الرئيسية </a>
+                    <a href="/"> الرئيسية </a>
+                </div>
+            </div>
+            <div class="header-link">
+                <p> القطط </p>
+                <i class="fa-solid fa-chevron-down"></i>
 
-     </main>
+                  <div class="ctm-menu-custom">
+                    <a href="/"> الرئيسية </a>
+                    <a href="/"> الرئيسية </a>
+                    <a href="/"> الرئيسية </a>
+                    <a href="/"> الرئيسية </a>
+                </div>
+            </div>
+            <div class="header-link">
+                <p> طيور وحيوانات </p>
+                <i class="fa-solid fa-chevron-down"></i>
 
+                  <div class="ctm-menu-custom">
+                    <a href="/"> الرئيسية </a>
+                    <a href="/"> الرئيسية </a>
+                    <a href="/"> الرئيسية </a>
+                    <a href="/"> الرئيسية </a>
+                </div>
+            </div>
+            <div class="header-link">
+                <p> نباتات الزينة </p>
+                <i class="fa-solid fa-chevron-down"></i>
 
-     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+                  <div class="ctm-menu-custom">
+                    <a href="/"> الرئيسية </a>
+                    <a href="/"> الرئيسية </a>
+                    <a href="/"> الرئيسية </a>
+                    <a href="/"> الرئيسية </a>
+                </div>
+            </div>
+            <a href="/" class="header-link">
+                <p> من نحن </p>
+            </a>
+            <a href="/" class="header-link">
+                <p> تواصل معنا </p>
+            </a>
+        </div>
+      </section>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 
-<script src="js/main.js"></script>
+     <script src="js/main.js"></script>
 </body>
 </html>
