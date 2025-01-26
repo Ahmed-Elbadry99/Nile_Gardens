@@ -39,6 +39,9 @@ p{
 
 .about-content {
     color: var(--gray);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .about-content span{
@@ -2104,6 +2107,8 @@ footer .row{
     align-items: center;
     justify-content: space-between;
     margin-bottom: 24px;
+    flex-wrap: wrap;
+    gap: 20px;
   }
 
   .edit-addresses-header h4{
@@ -2164,6 +2169,10 @@ footer .row{
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+.edit-addresses-content .group-form label{
+    font-size: 20px;
 }
 
 .edit-addresses-content .group-form.radio .raido-container{

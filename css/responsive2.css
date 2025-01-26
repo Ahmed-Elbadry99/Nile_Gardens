@@ -230,7 +230,8 @@
     .orders-section-header,
     .details-header .order-number h4,
     .details-header .order-price h4,
-    .addresses-header h4{
+    .addresses-header h4,
+    .edit-addresses-header h4{
         font-size: 20px;
     }
     .my-orders-header .nav-pills .nav-link{
@@ -238,7 +239,8 @@
         height: 40px;
     }
     .info-item h5,
-    .address-details-item h5{
+    .address-details-item h5,
+    .edit-addresses-content .group-form label{
         font-size: 18px;
     }
     .pay-description p, .info-item p{
@@ -269,6 +271,14 @@
     .action-button .form-switch .form-check-input{
         width: 45px;
         height: 23px;
+    }
+
+    .edit-addresses-content{
+        padding: 10px;
+    }
+
+    .edit-addresses-content button{
+        height: 55px;
     }
     /* logout */
     .logout-container{
@@ -368,7 +378,8 @@
     }
 
     .info-item h5,
-    .address-details-item h5{
+    .address-details-item h5,
+    .edit-addresses-content .group-form label{
         font-size: 16px;
     }
 
@@ -378,7 +389,8 @@
     .orders-section-header,
     .details-header .order-number h4 ,
     .details-header .order-price h4,
-    .addresses-header h4{
+    .addresses-header h4,
+    .edit-addresses-header h4{
         font-size: 18px;
     }
     .my-orders-header .nav-pills .nav-link{
@@ -435,6 +447,10 @@
         width: 130px;
     }
 
+    .edit-addresses-content button{
+        height: 45px;
+        font-size: 14px;
+    }
 
 }
 
@@ -502,7 +518,8 @@
   .product-details-tab .nav-pills .nav-link,
   .product-details-tab #pills-home,
   .product-review .user-details .user-comment,
-  .action-button label {
+  .action-button label ,
+  .edit-addresses-header .action-button label{
     font-size: 14px;
   }
 
